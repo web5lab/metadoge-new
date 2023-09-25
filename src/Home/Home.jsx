@@ -1,10 +1,9 @@
-/* Code generated with AutoHTML Plugin for Figma */
 import "./Home.css";
 
 export const Home = ({ ...props }) => {
   return (
     <div
-      className="w-[100%] h-[5382px] relative "
+      className="w-[100%] h-[5382px] relative overflow-hidden"
       style={{
         background:
           "linear-gradient(180.96deg, rgba(57, 40, 159, 1.00) 0%,rgba(66, 47, 156, 1.00) 100%)",
@@ -12,95 +11,3148 @@ export const Home = ({ ...props }) => {
       }}
     >
       <div className="absolute" style={{ inset: "0" }}>
-        <div className="w-[479.63px] h-[360px] static">
-          <div className="w-[479.63px] h-[360px] static">
-            <div
-              className="text-[#ffffff] text-left absolute left-56 top-[271px] w-[479.63px]"
-              style={{ font: "700 50px/155.2% 'Poppins', sans-serif" }}
-            >
-              Decentralized and
-              <br />
-              Transparent Crash Betting Platform{" "}
-            </div>
-            <div
-              className="text-[#e87d0e] text-left absolute left-56 top-[223px] w-[273px]"
-              style={{ font: "700 20px/155.2% 'Poppins', sans-serif" }}
-            >
-              DEX CRASH{" "}
+        <div className="w-[769.77px] h-[41.34px] static">
+          <div className="w-[581.41px] h-[24.2px] static">
+            <div className="flex flex-row gap-[88px] items-start justify-start absolute left-[427px] top-[61px]">
+              <div
+                className="text-[#ffffff] text-left relative w-[50.6px] h-[24.2px]"
+                style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
+              >
+                Home{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left relative w-[100.85px] h-[24.2px]"
+                style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
+              >
+                Tokenomics{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left relative w-[80.63px] h-[24.2px]"
+                style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
+              >
+                RoadMap{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left relative w-[85.33px] h-[24.2px]"
+                style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
+              >
+                Whitepaer{" "}
+              </div>
             </div>
           </div>
-        </div>
-        <div className="w-[195px] h-[59px] static">
-          <div
-            className="rounded-[40px] w-[195px] h-[53px] absolute left-[233px] top-[649px]"
-            style={{
-              background:
-                "linear-gradient(92.48deg, rgba(250, 131, 5, 1.00) 0%,rgba(251, 158, 60, 1.00) 100%)",
-            }}
-          ></div>
-          <button
-            className="text-[#ffffff] flex justify-center items-center text-left absolute left-[261px] top-[659px]"
-            style={{ font: "400 28px 'Ponnala', sans-serif" }}
-          >
-            Play Crash{" "}
-          </button>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div className="w-[581.41px] h-[24.2px] static">
-          <div className="flex flex-row gap-[88px] items-start justify-start absolute left-[427px] top-[61px]">
+          <div className="w-[131.77px] h-[41.34px] static">
+            <div className="bg-[#fa9021] rounded-md w-[131.77px] h-[41.34px] absolute left-[1065px] top-12"></div>
             <div
-              className="text-[#ffffff] text-left relative w-[50.6px] h-[24.2px]"
-              style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
+              className="text-[#ffffff] text-left absolute left-[1092.41px] top-[58.08px] w-[75.9px] h-[20.17px]"
+              style={{ font: "400 13px 'Poppins', sans-serif" }}
             >
-              Home{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left relative w-[100.85px] h-[24.2px]"
-              style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
-            >
-              Tokenomics{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left relative w-[80.63px] h-[24.2px]"
-              style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
-            >
-              RoadMap{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left relative w-[85.33px] h-[24.2px]"
-              style={{ font: "var(--base, 400 16px 'Poppins', sans-serif)" }}
-            >
-              Whitepaer{" "}
+              Staking{" "}
             </div>
           </div>
         </div>
         <div className="w-[131.77px] h-[41.34px] static">
-          <div className="bg-[#fa9021] rounded-md w-[131.77px] h-[41.34px] absolute left-[1065px] top-12"></div>
-          <button
-            className="text-[#ffffff]  absolute flex justify-center items-center left-[1092.41px] top-[58.08px] w-[75.9px] h-[20.17px]"
+          <div className="bg-[#fa9021] rounded-md w-[131.77px] h-[41.34px] absolute left-[1239px] top-12"></div>
+          <div
+            className="text-[#ffffff] text-left absolute left-[1266.41px] top-[58.08px] w-[75.9px] h-[20.17px]"
             style={{ font: "400 13px 'Poppins', sans-serif" }}
-            onClick={() => {
-              alert("hi")
-            }}
           >
-            Staking{" "}
-          </button>
+            Buy Now{" "}
+          </div>
+        </div>
+        <div
+          className="from-white to-blue-500 text-transparent bg-clip-text  bg-gradient-to-r text-left font-extrabold text-base md:block  lg:text-[2rem] md:text-[2rem] absolute left-[47px] top-[45px]"
+          style={{ font: "800 29px/153.5% 'Poppins', sans-serif" }}
+        >
+          DexCrash{" "}
+        </div>
+        <img
+          className="w-[65px] h-[65px] absolute left-[196px] top-[35px]"
+          src="rectangle-8.png"
+        />
+        <div className="w-[39px] h-1 static">
+          <div className="bg-[#dc7000] rounded-[20px] w-[31px] h-1 absolute left-[689px] top-[83px]"></div>
+          <div className="bg-[#dc7000] rounded-[20px] w-[5px] h-1 absolute left-[723px] top-[83px]"></div>
         </div>
       </div>
       <div className="absolute" style={{ inset: "0" }}>
-        <div className="bg-[#fa9021] rounded-md w-[131.77px] h-[41.34px] absolute left-[1239px] top-12"></div>
-        <button
-          className="text-[#ffffff] flex justify-center items-center absolute left-[1266.41px] top-[58.08px] w-[75.9px] h-[20.17px]"
-          style={{ font: "400 13px 'Poppins', sans-serif" }}
-        >
-          Buy Now{" "}
-        </button>
+        <div className="w-[479.63px] h-[485px] static">
+          <div className="w-[479.63px] h-[360px] static">
+            <div className="w-[479.63px] h-[360px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-56 top-[271px] w-[479.63px]"
+                style={{ font: "700 50px/155.2% 'Poppins', sans-serif" }}
+              >
+                Decentralized and
+                <br />
+                Transparent Crash Betting Platform{" "}
+              </div>
+              <div
+                className="text-[#e87d0e] text-left absolute left-56 top-[223px] w-[273px]"
+                style={{ font: "700 20px/155.2% 'Poppins', sans-serif" }}
+              >
+                DEX CRASH{" "}
+              </div>
+            </div>
+          </div>
+          <div className="w-[195px] h-[59px] static">
+            <div
+              className="rounded-[40px] w-[195px] h-[53px] absolute left-[233px] top-[649px]"
+              style={{
+                background:
+                  "linear-gradient(92.48deg, rgba(250, 131, 5, 1.00) 0%,rgba(251, 158, 60, 1.00) 100%)",
+              }}
+            ></div>
+            <div
+              className="text-[#ffffff] text-left absolute left-[261px] top-[659px]"
+              style={{ font: "400 28px 'Ponnala', sans-serif" }}
+            >
+              Play Crash{" "}
+            </div>
+          </div>
+        </div>
+        <div className="w-[646px] h-[360.34px] static">
+          <div className="w-[546.04px] h-[337.27px] static">
+            <svg
+              className="rounded-none absolute left-[799.98px] top-[271px] overflow-visible"
+              style={{}}
+              width="548"
+              height="338"
+              viewBox="0 0 548 338"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.75623 34.3078C2.75623 16.3402 17.3219 1.77454 35.2895 1.77454H512.71C530.678 1.77454 545.244 16.3402 545.244 34.3078V335.495H2.75623V34.3078Z"
+                stroke="url(#paint0_linear_328_71)"
+                strokeWidth="3.54908"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_328_71"
+                  x1="-9.76706"
+                  y1="-4.6014e-06"
+                  x2="117.176"
+                  y2="138.165"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#A8A8A8" />
+                  <stop offset="1" stopColor="#737475" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <svg
+              className="rounded-none absolute left-[801.59px] top-[272.47px] overflow-visible"
+              style={{}}
+              width="544"
+              height="337"
+              viewBox="0 0 544 337"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.36854 31.2317C2.36854 15.2241 15.3452 2.24744 31.3527 2.24744H512.647C528.655 2.24744 541.631 15.2241 541.631 31.2316V334.495H2.36854V31.2317Z"
+                fill="black"
+                stroke="#2D2E31"
+                strokeWidth="3.54908"
+              />
+            </svg>
+
+            <div className="bg-[#ffffff] rounded-tl-[14.2px] rounded-tr-[14.2px] w-[528.84px] h-[312.27px] absolute left-[808.58px] top-[279.35px] overflow-hidden">
+              <div className="bg-[#ffffff] w-[538px] h-[324px] absolute left-[-5.58px] top-[-6.35px]">
+                <img
+                  className="w-[538px] h-[320px] mt-[4px] absolute left-0 top-0"
+                  src="grafikstash-com.png"
+                />
+              </div>
+            </div>
+            <div className="w-[73.09px] h-[14.24px] static">
+              <svg
+                className="rounded-none absolute left-[1036.45px] top-[273.95px] overflow-visible"
+                style={{}}
+                width="74"
+                height="16"
+                viewBox="0 0 74 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.454102 0.945557V6.34579H6.04146C8.00156 6.34579 9.59054 7.93477 9.59054 9.89487V12.7279C9.59054 14.0835 10.7936 15.1825 12.2777 15.1825H62.7969C64.281 15.1825 65.4841 14.0835 65.4841 12.7279V9.89487C65.4841 7.93477 67.073 6.34579 69.0331 6.34579H73.5456V0.945557H0.454102Z"
+                  fill="black"
+                />
+              </svg>
+
+              <div className="w-[4.95px] h-[4.52px] static">
+                <div
+                  className="rounded-[50%] w-[4.95px] h-[4.52px] absolute left-[1075.26px] top-[282.89px]"
+                  style={{
+                    background:
+                      "linear-gradient(120.65deg, rgba(34, 34, 34, 1.00) 0%,rgba(11, 11, 11, 1.00) 100%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(-180deg) scale(1, 1)",
+                  }}
+                ></div>
+                <div
+                  className="rounded-[50%] w-[2.69px] h-[2.45px] absolute left-[1071.39px] top-[279.35px]"
+                  style={{
+                    background:
+                      "radial-gradient(closest-side, rgba(21, 36, 87, 1.00) 0%,rgba(0, 0, 0, 1.00) 100%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(0deg) scale(1, 1)",
+                  }}
+                ></div>
+                <div
+                  className="rounded-[50%] w-[1.96px] h-[1.61px] absolute left-[1071.93px] top-[281.8px]"
+                  style={{
+                    background:
+                      "linear-gradient(254.48deg, rgba(32, 86, 155, 1.00) 0%,rgba(6, 17, 39, 1.00) 67.70833134651184%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(-90deg) scale(1, 1)",
+                    filter: "blur(0.82px)",
+                  }}
+                ></div>
+                <div
+                  className="bg-[#50326d] rounded-[50%] w-[0.54px] h-[0.49px] absolute left-[1072.46px] top-[279.84px]"
+                  style={{
+                    transformOrigin: "0 0",
+                    transform: "rotate(0deg) scale(1, 1)",
+                    filter: "blur(2.88px)",
+                  }}
+                ></div>
+                <div
+                  className="rounded-[50%] w-[1.96px] h-[2.15px] absolute left-[1074.07px] top-[279.84px]"
+                  style={{
+                    background:
+                      "linear-gradient(254.48deg, rgba(61, 100, 149, 1.00) 0%,rgba(6, 17, 39, 1.00) 71.875%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(90deg) scale(1, 1)",
+                    filter: "blur(0.82px)",
+                  }}
+                ></div>
+                <div
+                  className="rounded-[50%] w-[1.07px] h-[0.49px] absolute left-[1072.46px] top-[280.82px]"
+                  style={{
+                    background:
+                      "linear-gradient(-38.66deg, rgba(50, 145, 175, 1.00) 0%,rgba(50, 145, 175, 0.00) 100%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(0deg) scale(1, 1)",
+                    filter: "blur(0.96px)",
+                  }}
+                ></div>
+              </div>
+            </div>
+            <div
+              className="w-[539.59px] h-[11.78px] absolute left-[803.21px] top-[596.49px]"
+              style={{
+                background:
+                  "linear-gradient(180deg, rgba(45, 45, 45, 1.00) 0%,rgba(0, 0, 0, 1.00) 100%)",
+              }}
+            ></div>
+          </div>
+          <div className="w-[646px] h-[23.07px] static">
+            <div className="w-[646px] h-[23.07px] static">
+              <svg
+                className="rounded-none absolute left-[750px] top-[608.27px] overflow-visible"
+                style={{}}
+                width="646"
+                height="20"
+                viewBox="0 0 646 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_iii_328_87)">
+                  <path
+                    d="M0 0.269043H646C646 11.1144 637.208 19.9062 626.363 19.9062H19.6372C8.79186 19.9062 0 11.1144 0 0.269043Z"
+                    fill="#D1D2D4"
+                  />
+                  <path
+                    d="M0 0.269043H646C646 11.1144 637.208 19.9062 626.363 19.9062H19.6372C8.79186 19.9062 0 11.1144 0 0.269043Z"
+                    fill="url(#paint0_linear_328_87)"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_iii_328_87"
+                    x="0"
+                    y="-13.9273"
+                    width="646"
+                    height="33.8335"
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="-20.1115" />
+                    <feGaussianBlur stdDeviation="7.09817" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.502066 0 0 0 0 0.502766 0 0 0 0 0.504167 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="shape"
+                      result="effect1_innerShadow_328_87"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="-7.09817" />
+                    <feGaussianBlur stdDeviation="2.95757" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.900764 0 0 0 0 0.904549 0 0 0 0 0.908333 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="effect1_innerShadow_328_87"
+                      result="effect2_innerShadow_328_87"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="-1.18303" />
+                    <feGaussianBlur stdDeviation="1.77454" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.616667 0 0 0 0 0.616667 0 0 0 0 0.616667 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="effect2_innerShadow_328_87"
+                      result="effect3_innerShadow_328_87"
+                    />
+                  </filter>
+                  <linearGradient
+                    id="paint0_linear_328_87"
+                    x1="0"
+                    y1="10.0876"
+                    x2="646"
+                    y2="10.0881"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#A9AAAC" />
+                    <stop
+                      offset="0.0205416"
+                      stopColor="#F2F2F2"
+                      stopOpacity="0.921875"
+                    />
+                    <stop offset="0.0339099" stopColor="#787879" />
+                    <stop
+                      offset="0.124814"
+                      stopColor="#D6D6D6"
+                      stopOpacity="0.606575"
+                    />
+                    <stop
+                      offset="0.515625"
+                      stopColor="#E4E4E4"
+                      stopOpacity="0"
+                    />
+                    <stop
+                      offset="0.864583"
+                      stopColor="#D7D7D7"
+                      stopOpacity="0.666378"
+                    />
+                    <stop offset="0.973923" stopColor="#848484" />
+                    <stop offset="0.992314" stopColor="#F4F4F4" />
+                    <stop offset="1" stopColor="#BFBFBF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              <svg
+                className="absolute left-[1023.02px] top-[608.27px] overflow-visible"
+                style={{}}
+                width="100"
+                height="8"
+                viewBox="0 0 100 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.0185547 0.269043H50.0003V7.14207H6.89158C3.09571 7.14207 0.0185547 4.06491 0.0185547 0.269043Z"
+                  fill="url(#paint0_radial_328_88)"
+                />
+                <path
+                  d="M0.0185547 0.269043H50.0003V7.14207H6.89158C3.09571 7.14207 0.0185547 4.06491 0.0185547 0.269043Z"
+                  fill="url(#paint1_linear_328_88)"
+                />
+                <path
+                  d="M99.9817 0.269043H50V7.14207H93.1087C96.9045 7.14207 99.9817 4.06491 99.9817 0.269043Z"
+                  fill="url(#paint2_radial_328_88)"
+                />
+                <path
+                  d="M99.9817 0.269043H50V7.14207H93.1087C96.9045 7.14207 99.9817 4.06491 99.9817 0.269043Z"
+                  fill="url(#paint3_linear_328_88)"
+                />
+                <defs>
+                  <radialGradient
+                    id="paint0_radial_328_88"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(25.0094 0.269043) rotate(90) scale(9.57314 69.6174)"
+                  >
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#D9D9D9" />
+                  </radialGradient>
+                  <linearGradient
+                    id="paint1_linear_328_88"
+                    x1="0.959069"
+                    y1="4.68739"
+                    x2="10.4008"
+                    y2="-0.409865"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0.00209588" stopColor="#242424" />
+                    <stop offset="0.34936" stopColor="#EFEFEF" />
+                  </linearGradient>
+                  <radialGradient
+                    id="paint2_radial_328_88"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(74.9908 0.269043) rotate(90) scale(9.57314 69.6174)"
+                  >
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#D9D9D9" />
+                  </radialGradient>
+                  <linearGradient
+                    id="paint3_linear_328_88"
+                    x1="99.0412"
+                    y1="4.68739"
+                    x2="89.5995"
+                    y2="-0.409865"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0.00209588" stopColor="#242424" />
+                    <stop offset="0.34936" stopColor="#EFEFEF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              <svg
+                className="absolute left-[1326.13px] top-[627.91px] overflow-visible"
+                style={{}}
+                width="38"
+                height="5"
+                viewBox="0 0 38 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.74537 2.37904L0.133057 0.90625H37.485L35.8727 2.37904H1.74537Z"
+                  fill="url(#paint0_linear_328_91)"
+                />
+                <rect
+                  x="1.74536"
+                  y="2.37891"
+                  width="34.396"
+                  height="0.49093"
+                  rx="0.245465"
+                  fill="#2A2A2A"
+                />
+                <path
+                  d="M2.28271 2.86987H35.6038L35.2208 3.38623C34.7745 3.9879 34.0696 4.34266 33.3205 4.34266H4.56605C3.81693 4.34266 3.11205 3.9879 2.66574 3.38623L2.28271 2.86987Z"
+                  fill="url(#paint1_linear_328_91)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_328_91"
+                    x1="0.133057"
+                    y1="1.15172"
+                    x2="37.2163"
+                    y2="1.15172"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#D1D2D4" />
+                    <stop offset="0.063237" stopColor="#818181" />
+                    <stop offset="0.507008" stopColor="#D0D0D0" />
+                    <stop offset="0.864583" stopColor="#818181" />
+                    <stop offset="1" stopColor="#D1D2D4" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_328_91"
+                    x1="2.82896"
+                    y1="3.36079"
+                    x2="35.6038"
+                    y2="3.36079"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#4D4D4D" />
+                    <stop offset="0.156699" stopColor="#292929" />
+                    <stop offset="0.501829" stopColor="#6A6A6A" />
+                    <stop offset="0.884758" stopColor="#2E2D2D" />
+                    <stop offset="1" stopColor="#4D4D4D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              <svg
+                className="absolute left-[782.25px] top-[627.91px] overflow-visible"
+                style={{}}
+                width="38"
+                height="5"
+                viewBox="0 0 38 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.85841 2.37904L0.246094 0.90625H37.598L35.9857 2.37904H1.85841Z"
+                  fill="url(#paint0_linear_328_95)"
+                />
+                <rect
+                  x="1.8584"
+                  y="2.37891"
+                  width="33.8586"
+                  height="0.49093"
+                  rx="0.245465"
+                  fill="#2A2A2A"
+                />
+                <path
+                  d="M2.39624 2.86987H35.1799L34.8139 3.37144C34.3684 3.98178 33.6583 4.34266 32.9027 4.34266H4.67349C3.91789 4.34266 3.20773 3.98178 2.76229 3.37144L2.39624 2.86987Z"
+                  fill="url(#paint1_linear_328_95)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_328_95"
+                    x1="0.246094"
+                    y1="1.15172"
+                    x2="37.3293"
+                    y2="1.15172"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#D1D2D4" />
+                    <stop offset="0.063237" stopColor="#818181" />
+                    <stop offset="0.507008" stopColor="#D0D0D0" />
+                    <stop offset="0.864583" stopColor="#818181" />
+                    <stop offset="1" stopColor="#D1D2D4" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_328_95"
+                    x1="2.93368"
+                    y1="3.36079"
+                    x2="35.1799"
+                    y2="3.36079"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#4D4D4D" />
+                    <stop offset="0.156699" stopColor="#292929" />
+                    <stop offset="0.501829" stopColor="#6A6A6A" />
+                    <stop offset="0.884758" stopColor="#2E2D2D" />
+                    <stop offset="1" stopColor="#4D4D4D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <img
+              className="rounded-br-[23.66px] rounded-bl-[23.66px] w-[646px] h-[19.64px] absolute left-[750px] top-[608.27px]"
+              src="texture.png"
+            />
+          </div>
+        </div>
       </div>
-      <img
-        className="w-[822px] h-[462px] absolute left-[461px] top-[-811px]"
-        src="pre-scene-6-1.png"
-      />
+      <div className="absolute" style={{ inset: "0" }}>
+        <div className="w-[578.08px] h-[464px] static">
+          <div className="w-[578.08px] h-[464px] static">
+            <div className="w-[578.08px] h-[464px] static">
+              <div className="w-[509.05px] h-[90px] static">
+                <div
+                  className="text-[#ffffff] text-left absolute left-[767.92px] top-[940px] w-[509.05px]"
+                  style={{ font: "500 30px 'Poppins', sans-serif" }}
+                >
+                  Lorem Ipsum is simply dummy <br />
+                  text dummy text{" "}
+                </div>
+              </div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[767.92px] top-[1073px] w-[578.08px] h-[159px]"
+                style={{ font: "400 17px 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&#039;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries,{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[767.92px] top-[1250px] w-[547.88px] h-[58px]"
+                style={{ font: "400 17px 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.{" "}
+              </div>
+              <div className="w-[190.89px] h-[50px] static">
+                <div className="bg-[#dc7000] w-[190.89px] h-[50px] absolute left-[767.92px] top-[1354px]"></div>
+                <div
+                  className="text-[#ffffff] text-left absolute left-[816.46px] top-[1367px] w-[94.91px]"
+                  style={{ font: "400 16px 'Poppins', sans-serif" }}
+                >
+                  Read more{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="text-[#ffffff] text-left absolute left-[191px] top-[826px] w-[547px] h-[99px]"
+          style={{ font: "800 42px/180.5% 'Poppins', sans-serif" }}
+        >
+          About DexCrash{" "}
+        </div>
+        <div className="w-[265px] h-[506px] static">
+          <svg
+            className="absolute left-[219px] top-[940px] overflow-visible"
+            style={{}}
+            width="265"
+            height="506"
+            viewBox="0 0 265 506"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_ddddd_351_72)">
+              <path
+                d="M2.03221 64.0292C2.03221 41.6169 2.03221 30.4107 6.63936 21.8503C10.6919 14.3204 17.1584 8.19841 25.112 4.36173C34.154 0 45.9907 0 69.6641 0H195.336C219.009 0 230.846 0 239.888 4.36173C247.842 8.19841 254.308 14.3204 258.361 21.8503C262.968 30.4107 262.968 41.6169 262.968 64.0292V133.907H263.699C264.155 133.907 264.382 133.907 264.556 133.991C264.709 134.065 264.833 134.183 264.911 134.327C265 134.492 265 134.708 265 135.139V199.629C265 200.061 265 200.276 264.911 200.441C264.833 200.585 264.709 200.703 264.556 200.777C264.382 200.861 264.155 200.861 263.699 200.861H262.968V441.971C262.968 464.383 262.968 475.589 258.361 484.15C254.308 491.68 247.842 497.802 239.888 501.638C230.846 506 219.009 506 195.336 506H69.6641C45.9907 506 34.154 506 25.112 501.638C17.1584 497.802 10.6919 491.68 6.63936 484.15C2.03221 475.589 2.03221 464.383 2.03221 441.971V215.483H0.812883C0.36394 215.483 0 215.138 0 214.713V173.156C0 172.731 0.36394 172.386 0.812883 172.386H2.03221V162.767H0.812883C0.36394 162.767 0 162.422 0 161.997V120.44C0 120.015 0.36394 119.67 0.812883 119.67H2.03221V101.585H0.812883C0.36394 101.585 0 101.24 0 100.815V80.0365C0 79.6115 0.36394 79.2669 0.812883 79.2669H2.03221V64.0292Z"
+                fill="#144571"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_ddddd_351_72"
+                x="0"
+                y="0"
+                width="457"
+                height="698"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="8" dy="8" />
+                <feGaussianBlur stdDeviation="4" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_351_72"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="16" dy="16" />
+                <feGaussianBlur stdDeviation="8" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="effect1_dropShadow_351_72"
+                  result="effect2_dropShadow_351_72"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="32" dy="32" />
+                <feGaussianBlur stdDeviation="16" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="effect2_dropShadow_351_72"
+                  result="effect3_dropShadow_351_72"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="64" dy="64" />
+                <feGaussianBlur stdDeviation="32" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="effect3_dropShadow_351_72"
+                  result="effect4_dropShadow_351_72"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="96" dy="96" />
+                <feGaussianBlur stdDeviation="48" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="effect4_dropShadow_351_72"
+                  result="effect5_dropShadow_351_72"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect5_dropShadow_351_72"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+
+          <div className="w-[265px] h-[506px] static">
+            <div className="w-[260.94px] h-[506px] static">
+              <svg
+                className="absolute left-[221.03px] top-[940px] overflow-visible"
+                style={{}}
+                width="260.9355773925781"
+                height="506"
+              ></svg>
+
+              <svg
+                className="absolute left-[221.03px] top-[940px] overflow-visible"
+                style={{}}
+                width="261"
+                height="506"
+                viewBox="0 0 261 506"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_i_351_76)">
+                  <path
+                    d="M0.0322266 64.0292C0.0322266 41.6169 0.0322266 30.4107 4.63937 21.8503C8.69194 14.3204 15.1584 8.19841 23.112 4.36173C32.154 0 43.9907 0 67.6641 0H193.336C217.009 0 228.846 0 237.888 4.36173C245.842 8.19841 252.308 14.3204 256.361 21.8503C260.968 30.4107 260.968 41.6169 260.968 64.0292V441.971C260.968 464.383 260.968 475.589 256.361 484.15C252.308 491.68 245.842 497.802 237.888 501.638C228.846 506 217.009 506 193.336 506H67.6641C43.9908 506 32.154 506 23.112 501.638C15.1584 497.802 8.69194 491.68 4.63937 484.15C0.0322266 475.589 0.0322266 464.383 0.0322266 441.971V64.0292Z"
+                    fill="#EBEBEB"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_i_351_76"
+                    x="0.0322266"
+                    y="0"
+                    width="260.936"
+                    height="506"
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="8" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.32 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="shape"
+                      result="effect1_innerShadow_351_76"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+
+              <div className="w-[262.97px] h-[508.31px] static">
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[220.22px] top-[989.25px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(209, 209, 209, 1.00) 10.9375%,rgba(227, 227, 227, 1.00) 31.77083432674408%,rgba(210, 210, 210, 1.00) 55.20833134651184%,rgba(229, 229, 229, 1.00) 80.72916865348816%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[220.22px] top-[1389.82px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(209, 209, 209, 1.00) 10.9375%,rgba(227, 227, 227, 1.00) 31.77083432674408%,rgba(210, 210, 210, 1.00) 55.20833134651184%,rgba(229, 229, 229, 1.00) 80.72916865348816%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[476.28px] top-[989.25px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(229, 229, 229, 1.00) 9.883211553096771%,rgba(210, 210, 210, 1.00) 36.878618597984314%,rgba(227, 227, 227, 1.00) 62.453216314315796%,rgba(209, 209, 209, 1.00) 79.85814809799194%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[476.28px] top-[1389.82px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(229, 229, 229, 1.00) 9.883211553096771%,rgba(210, 210, 210, 1.00) 36.878618597984314%,rgba(227, 227, 227, 1.00) 62.453216314315796%,rgba(209, 209, 209, 1.00) 79.85814809799194%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.54px] h-[5.69px] absolute left-[431.16px] top-[938.46px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(209, 209, 209, 1.00) 23.830579221248627%,rgba(227, 227, 227, 1.00) 41.670265793800354%,rgba(210, 210, 210, 1.00) 70.02262473106384%,rgba(229, 229, 229, 1.00) 92.64079928398132%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(90deg) scale(1, 1)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.54px] h-[5.69px] absolute left-[278.75px] top-[1440.23px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(229, 229, 229, 1.00) 9.883211553096771%,rgba(210, 210, 210, 1.00) 36.878618597984314%,rgba(227, 227, 227, 1.00) 62.453216314315796%,rgba(209, 209, 209, 1.00) 79.85814809799194%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(90deg) scale(1, 1)",
+                  }}
+                ></div>
+              </div>
+            </div>
+            <svg
+              className="absolute left-[225.91px] top-[944.62px] overflow-visible"
+              style={{}}
+              width="253"
+              height="498"
+              viewBox="0 0 253 498"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M62.6888 0.867554H190.312C201.128 0.867554 209.226 0.867728 215.652 1.36484C222.077 1.86176 226.81 2.8541 230.9 4.827C238.119 8.30955 243.986 13.8652 247.662 20.6955C249.744 24.563 250.791 29.0389 251.316 35.1179C251.84 41.2003 251.841 48.865 251.841 59.1058V438.894C251.841 449.135 251.84 456.8 251.316 462.882C250.791 468.961 249.744 473.437 247.662 477.305C243.986 484.135 238.119 489.691 230.9 493.173C226.81 495.146 222.077 496.138 215.652 496.635C209.226 497.132 201.128 497.133 190.312 497.133H62.6888C51.8725 497.133 43.7746 497.132 37.3478 496.635C30.9236 496.138 26.1907 495.146 22.1008 493.173C14.8813 489.691 9.01427 484.135 5.33826 477.305C3.2568 473.437 2.20942 468.961 1.6848 462.882C1.15988 456.8 1.15967 449.135 1.15967 438.894V59.1058C1.15967 48.865 1.15988 41.2003 1.6848 35.1179C2.20942 29.0389 3.2568 24.563 5.33826 20.6955C9.01427 13.8652 14.8813 8.30955 22.1008 4.827C26.1907 2.8541 30.9236 1.86176 37.3478 1.36484C43.7746 0.867728 51.8725 0.867554 62.6888 0.867554Z"
+                fill="black"
+                stroke="url(#paint0_linear_351_84)"
+                strokeWidth="0.5"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_351_84"
+                  x1="16.9641"
+                  y1="6.9666"
+                  x2="215.468"
+                  y2="491.836"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0.16" />
+                  <stop offset="1" stopColor="white" stopOpacity="0.05" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <svg
+              className="absolute left-[219px] top-[1019.27px] overflow-visible"
+              style={{}}
+              width="265"
+              height="137"
+              viewBox="0 0 265 137"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_ii_351_85)">
+                <path
+                  d="M0 1.03655C0 0.611522 0.36394 0.266968 0.812883 0.266968H2.03221V22.5848H0.812883C0.36394 22.5848 0 22.2403 0 21.8153V1.03655Z"
+                  fill="url(#paint0_linear_351_85)"
+                />
+              </g>
+              <g filter="url(#filter1_ii_351_85)">
+                <path
+                  d="M0 41.4395C0 41.0145 0.36394 40.6699 0.812883 40.6699H2.03221V83.7665H0.812883C0.36394 83.7665 0 83.4219 0 82.9969V41.4395Z"
+                  fill="url(#paint1_linear_351_85)"
+                />
+              </g>
+              <g filter="url(#filter2_ii_351_85)">
+                <path
+                  d="M262.968 54.9072H263.699C264.155 54.9072 264.382 54.9072 264.556 54.9911C264.709 55.0649 264.833 55.1826 264.911 55.3274C265 55.492 265 55.7076 265 56.1386V120.63C265 121.061 265 121.276 264.911 121.441C264.833 121.585 264.709 121.703 264.556 121.777C264.382 121.861 264.155 121.861 263.699 121.861H262.968V54.9072Z"
+                  fill="url(#paint2_linear_351_85)"
+                />
+              </g>
+              <g filter="url(#filter3_ii_351_85)">
+                <path
+                  d="M0 94.1558C0 93.7308 0.36394 93.3862 0.812883 93.3862H2.03221V136.483H0.812883C0.36394 136.483 0 136.138 0 135.713V94.1558Z"
+                  fill="url(#paint3_linear_351_85)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_ii_351_85"
+                  x="0"
+                  y="-1.73303"
+                  width="2.03223"
+                  height="26.3179"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_85"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_85"
+                    result="effect2_innerShadow_351_85"
+                  />
+                </filter>
+                <filter
+                  id="filter1_ii_351_85"
+                  x="0"
+                  y="38.6699"
+                  width="2.03223"
+                  height="47.0966"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_85"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_85"
+                    result="effect2_innerShadow_351_85"
+                  />
+                </filter>
+                <filter
+                  id="filter2_ii_351_85"
+                  x="262.968"
+                  y="52.9072"
+                  width="2.03223"
+                  height="70.9536"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_85"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_85"
+                    result="effect2_innerShadow_351_85"
+                  />
+                </filter>
+                <filter
+                  id="filter3_ii_351_85"
+                  x="0"
+                  y="91.3862"
+                  width="2.03223"
+                  height="47.0966"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_85"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.64 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_85"
+                    result="effect2_innerShadow_351_85"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear_351_85"
+                  x1="0"
+                  y1="11.2335"
+                  x2="2.03221"
+                  y2="11.2335"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopOpacity="0" />
+                  <stop
+                    offset="0.333333"
+                    stopColor="#D0D0D0"
+                    stopOpacity="0.42"
+                  />
+                  <stop offset="1" stopOpacity="0.24" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_351_85"
+                  x1="0"
+                  y1="61.8467"
+                  x2="2.03221"
+                  y2="61.8467"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopOpacity="0" />
+                  <stop
+                    offset="0.333333"
+                    stopColor="#D0D0D0"
+                    stopOpacity="0.42"
+                  />
+                  <stop offset="1" stopOpacity="0.24" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_351_85"
+                  x1="262.968"
+                  y1="87.8068"
+                  x2="265"
+                  y2="87.8068"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopOpacity="0.24" />
+                  <stop
+                    offset="0.573835"
+                    stopColor="#D0D0D0"
+                    stopOpacity="0.42"
+                  />
+                  <stop offset="1" stopOpacity="0" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_351_85"
+                  x1="0"
+                  y1="114.563"
+                  x2="2.03221"
+                  y2="114.563"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopOpacity="0" />
+                  <stop
+                    offset="0.333333"
+                    stopColor="#D0D0D0"
+                    stopOpacity="0.42"
+                  />
+                  <stop offset="1" stopOpacity="0.24" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div className="w-[265px] h-[506px] static">
+            <div className="w-[260.94px] h-[506px] static">
+              <svg
+                className="absolute left-[221.03px] top-[940px] overflow-visible"
+                style={{}}
+                width="260.9355773925781"
+                height="506"
+              ></svg>
+
+              <svg
+                className="absolute left-[221.03px] top-[940px] overflow-visible"
+                style={{}}
+                width="261"
+                height="506"
+                viewBox="0 0 261 506"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_ii_351_93)">
+                  <path
+                    d="M0.0322266 64.0292C0.0322266 41.6169 0.0322266 30.4107 4.63937 21.8503C8.69194 14.3204 15.1584 8.19841 23.112 4.36173C32.154 0 43.9907 0 67.6641 0H193.336C217.009 0 228.846 0 237.888 4.36173C245.842 8.19841 252.308 14.3204 256.361 21.8503C260.968 30.4107 260.968 41.6169 260.968 64.0292V441.971C260.968 464.383 260.968 475.589 256.361 484.15C252.308 491.68 245.842 497.802 237.888 501.638C228.846 506 217.009 506 193.336 506H67.6641C43.9908 506 32.154 506 23.112 501.638C15.1584 497.802 8.69194 491.68 4.63937 484.15C0.0322266 475.589 0.0322266 464.383 0.0322266 441.971V64.0292Z"
+                    fill="#050505"
+                  />
+                </g>
+                <path
+                  d="M67.6641 1H193.336C205.188 1 214.021 1.0007 221.022 1.54224C228.013 2.08299 233.092 3.1585 237.454 5.26241C245.224 9.01065 251.531 14.9865 255.48 22.3243C257.693 26.4353 258.825 31.2245 259.396 37.8313C259.967 44.4514 259.968 52.8056 259.968 64.0292V441.971C259.968 453.194 259.967 461.549 259.396 468.169C258.825 474.775 257.693 479.565 255.48 483.676C251.531 491.013 245.224 496.989 237.454 500.738C233.092 502.841 228.013 503.917 221.022 504.458C214.021 504.999 205.188 505 193.336 505H67.6641C55.8118 505 46.9795 504.999 39.9784 504.458C32.9875 503.917 27.908 502.841 23.5465 500.738C15.7762 496.989 9.4691 491.013 5.51994 483.676C3.30742 479.565 2.17458 474.775 1.60442 468.169C1.03309 461.549 1.03223 453.194 1.03223 441.971V64.0292C1.03223 52.8056 1.03309 44.4514 1.60442 37.8313C2.17458 31.2245 3.30742 26.4353 5.51994 22.3243C9.4691 14.9865 15.7762 9.01065 23.5465 5.26241C27.908 3.1585 32.9875 2.08299 39.9784 1.54224C46.9795 1.0007 55.8118 1 67.6641 1Z"
+                  stroke="url(#paint0_linear_351_93)"
+                  strokeWidth="2"
+                />
+                <defs>
+                  <filter
+                    id="filter0_ii_351_93"
+                    x="0.0322266"
+                    y="0"
+                    width="260.936"
+                    height="506"
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="5" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.88 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="shape"
+                      result="effect1_innerShadow_351_93"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="2.5" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="effect1_innerShadow_351_93"
+                      result="effect2_innerShadow_351_93"
+                    />
+                  </filter>
+                  <linearGradient
+                    id="paint0_linear_351_93"
+                    x1="130.5"
+                    y1="0"
+                    x2="130.5"
+                    y2="506"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="white" stopOpacity="0.64" />
+                    <stop offset="1" stopColor="white" stopOpacity="0.32" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              <div className="w-[262.97px] h-[508.31px] static">
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[220.22px] top-[989.25px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(143, 143, 143, 1.00) 12.362809479236603%,rgba(82, 82, 82, 1.00) 36.57381236553192%,rgba(20, 20, 20, 1.00) 82.76585936546326%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[220.22px] top-[1389.82px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(143, 143, 143, 1.00) 12.362809479236603%,rgba(82, 82, 82, 1.00) 36.57381236553192%,rgba(20, 20, 20, 1.00) 82.76585936546326%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[476.28px] top-[989.25px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(20, 20, 20, 1.00) 8.817603439092636%,rgba(82, 82, 82, 1.00) 59.25639271736145%,rgba(143, 143, 143, 1.00) 85.54139137268066%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.91px] h-[5.39px] absolute left-[476.28px] top-[1389.82px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(20, 20, 20, 1.00) 8.817603439092636%,rgba(82, 82, 82, 1.00) 59.25639271736145%,rgba(143, 143, 143, 1.00) 85.54139137268066%)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.54px] h-[5.69px] absolute left-[431.16px] top-[938.46px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(143, 143, 143, 1.00) 22.462457418441772%,rgba(82, 82, 82, 1.00) 48.15141558647156%,rgba(20, 20, 20, 1.00) 97.6264476776123%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(90deg) scale(1, 1)",
+                  }}
+                ></div>
+                <div
+                  className="w-[6.54px] h-[5.69px] absolute left-[278.75px] top-[1440.23px]"
+                  style={{
+                    background:
+                      "linear-gradient(90deg, rgba(0, 0, 0, 1.00) 12.286058068275452%,rgba(41, 41, 41, 1.00) 58.46241116523743%,rgba(122, 122, 122, 1.00) 87.58903741836548%)",
+                    transformOrigin: "0 0",
+                    transform: "rotate(90deg) scale(1, 1)",
+                  }}
+                ></div>
+              </div>
+            </div>
+            <svg
+              className="absolute left-[225.91px] top-[944.62px] overflow-visible"
+              style={{}}
+              width="253"
+              height="498"
+              viewBox="0 0 253 498"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M62.6888 0.867554H190.312C201.128 0.867554 209.226 0.867728 215.652 1.36484C222.077 1.86176 226.81 2.8541 230.9 4.827C238.119 8.30955 243.986 13.8652 247.662 20.6955C249.744 24.563 250.791 29.0389 251.316 35.1179C251.84 41.2003 251.841 48.865 251.841 59.1058V438.894C251.841 449.135 251.84 456.8 251.316 462.882C250.791 468.961 249.744 473.437 247.662 477.305C243.986 484.135 238.119 489.691 230.9 493.173C226.81 495.146 222.077 496.138 215.652 496.635C209.226 497.132 201.128 497.133 190.312 497.133H62.6888C51.8725 497.133 43.7746 497.132 37.3478 496.635C30.9236 496.138 26.1907 495.146 22.1008 493.173C14.8813 489.691 9.01427 484.135 5.33826 477.305C3.2568 473.437 2.20942 468.961 1.6848 462.882C1.15988 456.8 1.15967 449.135 1.15967 438.894V59.1058C1.15967 48.865 1.15988 41.2003 1.6848 35.1179C2.20942 29.0389 3.2568 24.563 5.33826 20.6955C9.01427 13.8652 14.8813 8.30955 22.1008 4.827C26.1907 2.8541 30.9236 1.86176 37.3478 1.36484C43.7746 0.867728 51.8725 0.867554 62.6888 0.867554Z"
+                fill="black"
+                stroke="url(#paint0_linear_351_101)"
+                strokeWidth="0.5"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_351_101"
+                  x1="16.9641"
+                  y1="6.9666"
+                  x2="215.468"
+                  y2="491.836"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0.16" />
+                  <stop offset="1" stopColor="white" stopOpacity="0.05" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <svg
+              className="absolute left-[219px] top-[1019.27px] overflow-visible"
+              style={{}}
+              width="265"
+              height="137"
+              viewBox="0 0 265 137"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_iiii_351_102)">
+                <path
+                  d="M0 1.03655C0 0.611522 0.36394 0.266968 0.812883 0.266968H2.03221V22.5848H0.812883C0.36394 22.5848 0 22.2403 0 21.8153V1.03655Z"
+                  fill="url(#paint0_linear_351_102)"
+                />
+              </g>
+              <g filter="url(#filter1_iiii_351_102)">
+                <path
+                  d="M0 41.4395C0 41.0145 0.36394 40.6699 0.812883 40.6699H2.03221V83.7665H0.812883C0.36394 83.7665 0 83.4219 0 82.9969V41.4395Z"
+                  fill="url(#paint1_linear_351_102)"
+                />
+              </g>
+              <g filter="url(#filter2_iiii_351_102)">
+                <path
+                  d="M262.968 54.9072H263.699C264.155 54.9072 264.382 54.9072 264.556 54.9911C264.709 55.0649 264.833 55.1826 264.911 55.3274C265 55.492 265 55.7076 265 56.1386V120.63C265 121.061 265 121.276 264.911 121.441C264.833 121.585 264.709 121.703 264.556 121.777C264.382 121.861 264.155 121.861 263.699 121.861H262.968V54.9072Z"
+                  fill="url(#paint2_linear_351_102)"
+                />
+              </g>
+              <g filter="url(#filter3_iiii_351_102)">
+                <path
+                  d="M0 94.1558C0 93.7308 0.36394 93.3862 0.812883 93.3862H2.03221V136.483H0.812883C0.36394 136.483 0 136.138 0 135.713V94.1558Z"
+                  fill="url(#paint3_linear_351_102)"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_iiii_351_102"
+                  x="0"
+                  y="-1.73303"
+                  width="2.03223"
+                  height="26.3179"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_102"
+                    result="effect2_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect2_innerShadow_351_102"
+                    result="effect3_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect3_innerShadow_351_102"
+                    result="effect4_innerShadow_351_102"
+                  />
+                </filter>
+                <filter
+                  id="filter1_iiii_351_102"
+                  x="0"
+                  y="38.6699"
+                  width="2.03223"
+                  height="47.0966"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_102"
+                    result="effect2_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect2_innerShadow_351_102"
+                    result="effect3_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect3_innerShadow_351_102"
+                    result="effect4_innerShadow_351_102"
+                  />
+                </filter>
+                <filter
+                  id="filter2_iiii_351_102"
+                  x="262.968"
+                  y="52.9072"
+                  width="2.03223"
+                  height="70.9536"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_102"
+                    result="effect2_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect2_innerShadow_351_102"
+                    result="effect3_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect3_innerShadow_351_102"
+                    result="effect4_innerShadow_351_102"
+                  />
+                </filter>
+                <filter
+                  id="filter3_iiii_351_102"
+                  x="0"
+                  y="91.3862"
+                  width="2.03223"
+                  height="47.0966"
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="shape"
+                    result="effect1_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect1_innerShadow_351_102"
+                    result="effect2_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect2_innerShadow_351_102"
+                    result="effect3_innerShadow_351_102"
+                  />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="-1" />
+                  <feGaussianBlur stdDeviation="0.5" />
+                  <feComposite
+                    in2="hardAlpha"
+                    operator="arithmetic"
+                    k2="-1"
+                    k3="1"
+                  />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.32 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="effect3_innerShadow_351_102"
+                    result="effect4_innerShadow_351_102"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear_351_102"
+                  x1="0"
+                  y1="11.2335"
+                  x2="2.03221"
+                  y2="11.2335"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0.08" />
+                  <stop
+                    offset="0.276042"
+                    stopColor="white"
+                    stopOpacity="0.24"
+                  />
+                  <stop offset="1" stopColor="white" stopOpacity="0" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_351_102"
+                  x1="0"
+                  y1="61.8467"
+                  x2="2.03221"
+                  y2="61.8467"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0.08" />
+                  <stop
+                    offset="0.276042"
+                    stopColor="white"
+                    stopOpacity="0.24"
+                  />
+                  <stop offset="1" stopColor="white" stopOpacity="0" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_351_102"
+                  x1="262.968"
+                  y1="87.8068"
+                  x2="265"
+                  y2="87.8068"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0" />
+                  <stop
+                    offset="0.630208"
+                    stopColor="white"
+                    stopOpacity="0.24"
+                  />
+                  <stop offset="1" stopColor="white" stopOpacity="0.08" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_351_102"
+                  x1="0"
+                  y1="114.563"
+                  x2="2.03221"
+                  y2="114.563"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="white" stopOpacity="0.08" />
+                  <stop
+                    offset="0.276042"
+                    stopColor="white"
+                    stopOpacity="0.24"
+                  />
+                  <stop offset="1" stopColor="white" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div className="w-[233.7px] h-[478.68px] static">
+            <svg
+              className="rounded-none absolute left-[234.85px] top-[953.47px] overflow-visible"
+              style={{}}
+              width="233.70399475097656"
+              height="478.6792907714844"
+            ></svg>
+            <div className="w-[234.11px] h-[480.22px] rounded-lg absolute left-[234.44px] top-[952.7px]">
+              <img
+                className="w-[234.11px] h-[480.22px] rounded-lg absolute left-0 top-0"
+                src="background.png"
+              />
+            </div>
+          </div>
+          <svg
+            className="absolute left-[335.65px] top-[955.78px] overflow-visible"
+            style={{}}
+            width="51"
+            height="12"
+            viewBox="0 0 51 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_i_351_110)">
+              <path
+                d="M0.648682 6.16351C0.648682 4.67591 1.92247 3.46997 3.49377 3.46997H29.506C31.0773 3.46997 32.3511 4.67591 32.3511 6.16351C32.3511 7.65111 31.0773 8.85704 29.506 8.85704H3.49377C1.92247 8.85704 0.648682 7.65111 0.648682 6.16351Z"
+                fill="#161616"
+              />
+            </g>
+            <g filter="url(#filter1_f_351_110)">
+              <path
+                d="M3.49377 4.46997H29.506C30.5773 4.46997 31.3511 5.27906 31.3511 6.16351C31.3511 7.04795 30.5773 7.85704 29.506 7.85704H3.49377C2.42247 7.85704 1.64868 7.04795 1.64868 6.16351C1.64868 5.27906 2.42247 4.46997 3.49377 4.46997Z"
+                stroke="black"
+                strokeOpacity="0.32"
+                strokeWidth="2"
+              />
+            </g>
+            <path
+              d="M3.49377 3.96997H29.506C30.8273 3.96997 31.8511 4.97749 31.8511 6.16351C31.8511 7.34953 30.8273 8.35704 29.506 8.35704H3.49377C2.17247 8.35704 1.14868 7.34953 1.14868 6.16351C1.14868 4.97749 2.17247 3.96997 3.49377 3.96997Z"
+              stroke="url(#paint0_linear_351_110)"
+            />
+            <path
+              d="M38.8542 6.16356C38.8542 3.18836 41.4018 0.776489 44.5444 0.776489C47.687 0.776489 50.2346 3.18836 50.2346 6.16356C50.2346 9.13876 47.687 11.5506 44.5444 11.5506C41.4018 11.5506 38.8542 9.13876 38.8542 6.16356Z"
+              fill="url(#paint1_radial_351_110)"
+            />
+            <path
+              d="M38.8542 6.16356C38.8542 3.18836 41.4018 0.776489 44.5444 0.776489C47.687 0.776489 50.2346 3.18836 50.2346 6.16356C50.2346 9.13876 47.687 11.5506 44.5444 11.5506C41.4018 11.5506 38.8542 9.13876 38.8542 6.16356Z"
+              fill="url(#paint2_radial_351_110)"
+            />
+            <path
+              d="M47.3896 6.16351C47.3896 4.67591 46.1159 3.46997 44.5446 3.46997C42.9733 3.46997 41.6995 4.67591 41.6995 6.16351C41.6995 7.65111 42.9733 8.85704 44.5446 8.85704C46.1159 8.85704 47.3896 7.65111 47.3896 6.16351Z"
+              fill="url(#paint3_linear_351_110)"
+            />
+            <path
+              d="M47.3896 6.16351C47.3896 4.67591 46.1159 3.46997 44.5446 3.46997C42.9733 3.46997 41.6995 4.67591 41.6995 6.16351C41.6995 7.65111 42.9733 8.85704 44.5446 8.85704C46.1159 8.85704 47.3896 7.65111 47.3896 6.16351Z"
+              fill="url(#paint4_radial_351_110)"
+            />
+            <path
+              d="M47.3896 6.16351C47.3896 4.67591 46.1159 3.46997 44.5446 3.46997C42.9733 3.46997 41.6995 4.67591 41.6995 6.16351C41.6995 7.65111 42.9733 8.85704 44.5446 8.85704C46.1159 8.85704 47.3896 7.65111 47.3896 6.16351Z"
+              fill="url(#paint5_radial_351_110)"
+            />
+            <path
+              d="M47.3896 6.16351C47.3896 4.67591 46.1159 3.46997 44.5446 3.46997C42.9733 3.46997 41.6995 4.67591 41.6995 6.16351C41.6995 7.65111 42.9733 8.85704 44.5446 8.85704C46.1159 8.85704 47.3896 7.65111 47.3896 6.16351Z"
+              fill="url(#paint6_radial_351_110)"
+            />
+            <path
+              d="M47.3896 6.16351C47.3896 4.67591 46.1159 3.46997 44.5446 3.46997C42.9733 3.46997 41.6995 4.67591 41.6995 6.16351C41.6995 7.65111 42.9733 8.85704 44.5446 8.85704C46.1159 8.85704 47.3896 7.65111 47.3896 6.16351Z"
+              fill="url(#paint7_radial_351_110)"
+            />
+            <defs>
+              <filter
+                id="filter0_i_351_110"
+                x="0.648682"
+                y="3.46997"
+                width="31.7024"
+                height="5.38708"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset />
+                <feGaussianBlur stdDeviation="4" />
+                <feComposite
+                  in2="hardAlpha"
+                  operator="arithmetic"
+                  k2="-1"
+                  k3="1"
+                />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.48 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="shape"
+                  result="effect1_innerShadow_351_110"
+                />
+              </filter>
+              <filter
+                id="filter1_f_351_110"
+                x="-0.351318"
+                y="2.46997"
+                width="33.7024"
+                height="7.38708"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="0.5"
+                  result="effect1_foregroundBlur_351_110"
+                />
+              </filter>
+              <linearGradient
+                id="paint0_linear_351_110"
+                x1="16.4999"
+                y1="3.46997"
+                x2="16.4999"
+                y2="8.85704"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop />
+                <stop offset="0.483028" stopColor="#484848" />
+                <stop offset="1" />
+              </linearGradient>
+              <radialGradient
+                id="paint1_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(45.5605 8.6647) rotate(-129.222) scale(5.46361 5.53175)"
+              >
+                <stop stopColor="#242424" />
+                <stop offset="1" stopColor="#161616" />
+              </radialGradient>
+              <radialGradient
+                id="paint2_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(44.5444 6.16356) rotate(90) scale(5.38707 5.69018)"
+              >
+                <stop offset="0.463542" stopOpacity="0.25" />
+                <stop offset="0.645833" stopOpacity="0" />
+              </radialGradient>
+              <linearGradient
+                id="paint3_linear_351_110"
+                x1="44.5446"
+                y1="3.46997"
+                x2="44.5446"
+                y2="8.85704"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#0B528D" />
+                <stop offset="0.276042" stopColor="#3625AF" />
+                <stop offset="0.510417" stopColor="#070D17" />
+                <stop offset="0.734375" stopColor="#16618F" />
+                <stop offset="1" stopColor="#021762" />
+              </linearGradient>
+              <radialGradient
+                id="paint4_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(42.3091 5.58632) rotate(56.9757) scale(2.98309 3.05389)"
+              >
+                <stop stopColor="#070D17" />
+                <stop offset="1" stopColor="#070D17" stopOpacity="0" />
+              </radialGradient>
+              <radialGradient
+                id="paint5_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(44.951 6.5483) rotate(107.582) scale(2.01824 2.11163)"
+              >
+                <stop offset="0.146834" stopColor="#070D17" />
+                <stop offset="1" stopColor="#070D17" stopOpacity="0" />
+              </radialGradient>
+              <radialGradient
+                id="paint6_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(45.3574 5.58632) rotate(130.198) scale(1.25944 1.27283)"
+              >
+                <stop stopColor="#6356D7" />
+                <stop offset="1" stopColor="#15368A" stopOpacity="0" />
+              </radialGradient>
+              <radialGradient
+                id="paint7_radial_351_110"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(44.5446 6.16351) rotate(90) scale(2.69354 2.84509)"
+              >
+                <stop offset="0.828125" stopOpacity="0" />
+                <stop offset="1" stopOpacity="0.85" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div className="absolute" style={{ inset: "0" }}>
+        <div
+          className="text-[#ffffff] text-left absolute left-[123px] top-[1571px] w-[237px]"
+          style={{ font: "600 25px/180.5% 'Poppins', sans-serif" }}
+        >
+          Why DexCrash{" "}
+        </div>
+        <div className="w-[378px] h-[348px] static">
+          <div
+            className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[123px] top-[1679px]"
+            style={{ boxShadow: "0px 4px 94px 0px rgba(0, 0, 0, 0.15)" }}
+          ></div>
+          <div className="w-[304px] h-[162px] static">
+            <div
+              className="text-[#ffffff] text-left absolute left-40 top-[1855px] w-[304px] h-[108px]"
+              style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&#039;s standard dummy
+              text ever since the 1500s,{" "}
+            </div>
+            <div
+              className="text-[#ffffff] text-left absolute left-40 top-[1801px]"
+              style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
+            >
+              Lorem Ipsum{" "}
+            </div>
+          </div>
+          <div className="w-[140px] h-[39px] static">
+            <div className="bg-[rgba(176,0,220,0.11)] rounded-lg w-[140px] h-[39px] absolute left-40 top-[1743px]"></div>
+            <div
+              className="text-[#ffffff] text-left absolute left-[174px] top-[1750px]"
+              style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+            >
+              Lorem ipsum{" "}
+            </div>
+          </div>
+        </div>
+        <div className="w-[378px] h-[348px] static">
+          <div className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[544px] top-[1679px]"></div>
+          <div className="w-[304px] h-[220px] static">
+            <div className="w-[304px] h-[162px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-[581px] top-[1855px] w-[304px] h-[108px]"
+                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&#039;s standard
+                dummy text ever since the 1500s,{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[581px] top-[1801px]"
+                style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum{" "}
+              </div>
+            </div>
+            <div className="w-[140px] h-[39px] static">
+              <div className="bg-[rgba(220,66,0,0.11)] rounded-lg w-[140px] h-[39px] absolute left-[581px] top-[1743px]"></div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[605px] top-[1750px]"
+                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem ipsum{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[378px] h-[348px] static">
+          <div className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[965px] top-[1679px]"></div>
+          <div className="w-[304px] h-[220px] static">
+            <div className="w-[304px] h-[162px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-[1002px] top-[1855px] w-[304px] h-[108px]"
+                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&#039;s standard
+                dummy text ever since the 1500s,{" "}
+              </div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[1002px] top-[1801px]"
+                style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem Ipsum{" "}
+              </div>
+            </div>
+            <div className="w-[140px] h-[39px] static">
+              <div className="bg-[rgba(0,220,141,0.11)] rounded-lg w-[140px] h-[39px] absolute left-[1002px] top-[1743px]"></div>
+              <div
+                className="text-[#ffffff] text-left absolute left-[1026px] top-[1750px]"
+                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
+              >
+                Lorem ipsum{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute" style={{ inset: "0" }}>
+        <div className="w-[669px] h-[408px] absolute left-[123px] top-[2342px]">
+          <div className="absolute" style={{ inset: "0" }}>
+            <div
+              className="text-[#ffffff] text-left absolute left-[602px] top-[35px] w-[107px] h-7"
+              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
+            >
+              Staking{" "}
+            </div>
+            <div
+              className="text-[#ff703b] text-left absolute left-[601.64px] top-[4.05px] w-[77.51px] h-[27.33px]"
+              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
+            >
+              30%{" "}
+            </div>
+          </div>
+          <div className="absolute" style={{ inset: "0" }}>
+            <div
+              className="text-[#ffffff] text-left absolute left-[601.67px] top-[360.6px] w-[207.48px] h-[27.88px]"
+              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
+            >
+              Ico and Liquidity{" "}
+            </div>
+            <div
+              className="text-[#39cef3] text-left absolute left-[601.67px] top-[329px] w-[58.11px] h-[27.88px]"
+              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
+            >
+              25%{" "}
+            </div>
+          </div>
+          <div className="absolute" style={{ inset: "0" }}>
+            <div
+              className="text-[#ffffff] text-left absolute left-[-13.84px] top-[360.6px] w-[43.14px] h-[27.88px]"
+              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
+            >
+              Development{" "}
+            </div>
+            <div
+              className="text-[#39cef3] text-left absolute left-[-13.84px] top-[329px] w-[63.05px] h-[27.88px]"
+              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
+            >
+              20%{" "}
+            </div>
+          </div>
+          <div className="absolute" style={{ inset: "0" }}>
+            <div
+              className="text-[#ffffff] text-left absolute left-[-13.84px] top-[181.23px] w-[91.53px] h-[27.88px]"
+              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
+            >
+              Marketing{" "}
+            </div>
+            <div
+              className="text-[#39cef3] text-left absolute left-[-13.84px] top-[149.63px] w-[57.97px] h-[27.88px]"
+              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
+            >
+              15%{" "}
+            </div>
+          </div>
+          <div className="absolute" style={{ inset: "0" }}>
+            <div
+              className="text-[#ffffff] text-left absolute left-[-23.07px] top-[35.32px] w-[63.4px] h-[27.88px]"
+              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
+            >
+              Team{" "}
+            </div>
+            <div
+              className="text-[#9ad960] text-left absolute left-[-23.07px] top-[3.72px] w-[72.27px] h-[27.88px]"
+              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
+            >
+              10%{" "}
+            </div>
+          </div>
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[378.96px] h-[408px] absolute left-[137.25px] top-0"
+            style={{ boxShadow: "0px 4px 50px 0px rgba(0, 0, 0, 0.08)" }}
+          ></div>
+          <div className="w-[342.78px] h-[369.05px] absolute left-[155.38px] top-[19.52px] overflow-hidden">
+            <img
+              className="w-[342.78px] h-[369.05px] absolute "
+              src="rectangle-82.png"
+            />
+          </div>
+          <svg
+            className="absolute left-[66.47px] top-[26.49px] overflow-visible"
+            style={{}}
+            width="153"
+            height="28"
+            viewBox="0 0 153 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.468262 0.487488H107.94L152.828 27.4397"
+              stroke="#CDCDCD"
+              strokeWidth="2"
+              strokeDasharray="2 2"
+            />
+          </svg>
+
+          <svg
+            className="absolute left-[586.56px] top-[26.49px] overflow-visible"
+            style={{ transform: "translate(-152.87px, -1px)" }}
+            width="153"
+            height="28"
+            viewBox="0 0 153 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M152.562 0.487488H45.0904L0.202665 27.4397"
+              stroke="#CDCDCD"
+              strokeWidth="2"
+              strokeDasharray="2 2"
+            />
+          </svg>
+
+          <svg
+            className="absolute left-[586.56px] top-[360.6px] overflow-visible"
+            style={{ transform: "translate(-131.7px, -25.5px)" }}
+            width="132"
+            height="26"
+            viewBox="0 0 132 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M131.562 25.6013H43.9446L0.351696 0.972646"
+              stroke="#CDCDCD"
+              strokeWidth="2"
+              strokeDasharray="2 2"
+            />
+          </svg>
+
+          <svg
+            className="absolute left-[66.47px] top-[360.6px] overflow-visible"
+            style={{ transform: "translate(0px, -22.29px)" }}
+            width="133"
+            height="22"
+            viewBox="0 0 133 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.468262 21.6013H83.7696L132.11 0.225494"
+              stroke="#CDCDCD"
+              strokeWidth="2"
+              strokeDasharray="2 2"
+            />
+          </svg>
+
+          <svg
+            className="absolute left-[66.47px] top-[183.79px] overflow-visible"
+            style={{ transform: "translate(0px, -22.29px)" }}
+            width="133"
+            height="22"
+            viewBox="0 0 133 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0H45.751L85.0277 0"
+              stroke="#CDCDCD"
+              strokeWidth="2"
+              strokeDasharray="2 2"
+            />
+          </svg>
+        </div>
+        <div
+          className="text-[#ffffff] text-left absolute left-[507px] top-[2156px] w-[547px] h-[99px]"
+          style={{ font: "800 66px/180.5% 'Poppins', sans-serif" }}
+        >
+          Token Nomics{" "}
+        </div>
+        <div className="w-[453px] h-[408px] static">
+          <div
+            className="bg-[#ffffff] rounded-[20px] w-[453px] h-[408px] absolute left-[909px] top-[2339px]"
+            style={{ boxShadow: "0px 4px 94px 0px rgba(0, 0, 0, 0.15)" }}
+          ></div>
+          <div
+            className="text-[#3784e9] text-left absolute left-[958px] top-[2551px] w-[238px] h-[45px]"
+            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
+          >
+            DECIMAL =&gt; 18{" "}
+          </div>
+          <div className="w-[238px] h-[90px] static">
+            <div
+              className="text-[#3784e9] text-left absolute left-[958px] top-[2461px] w-[238px] h-[45px]"
+              style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
+            >
+              NAME =&gt; DEX TOKEN{" "}
+            </div>
+            <div
+              className="text-[#3784e9] text-left absolute left-[958px] top-[2506px] w-[238px] h-[45px]"
+              style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
+            >
+              SYMBOL =&gt; DEX{" "}
+            </div>
+          </div>
+          <div className="w-[167.78px] h-[45.72px] static">
+            <div className="bg-[#dc7000] rounded-lg w-[167.78px] h-[45.72px] absolute left-[1058px] top-[2368px]"></div>
+            <div
+              className="text-[#ffffff] text-left absolute left-[1087px] top-[2376px] w-[109.06px] h-[30.48px]"
+              style={{ font: "400 18px/187.5% 'Poppins', sans-serif" }}
+            >
+              DEX TOKEN{" "}
+            </div>
+          </div>
+          <div
+            className="text-[#3784e9] text-left absolute left-[958px] top-[2596px] w-[370px] h-[45px]"
+            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
+          >
+            TOTAL SUPPLY =&gt; 10 BILLION TOKEN{" "}
+          </div>
+          <div
+            className="text-[#3784e9] text-left absolute left-[959px] top-[2633px] w-[353px] h-[45px]"
+            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
+          >
+            ADDRESS =&gt; 0xe9e7C...087D56{" "}
+          </div>
+        </div>
+      </div>
+      {/* Roadmap */}
+      <div className="absolute" style={{ inset: "0" }}>
+        <div
+          className="text-[#ffffff] text-left absolute left-[506px] top-[2851px] w-[354px] h-[99px]"
+          style={{ font: "800 66px/180.5% 'Poppins', sans-serif" }}
+        >
+          ROADMAP{" "}
+        </div>
+        <div className="w-[1128.45px] h-[895px] static">
+          <svg
+            className="absolute left-[1149px] top-[3414px] overflow-visible"
+            style={{ transform: "translate(-1001px, -12px)" }}
+            width="989"
+            height="347"
+            viewBox="0 0 989 347"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M957.778 2.72952e-06C957.778 2.72952e-06 342.469 6.74099e-05 147.114 7.36e-05C-48.2404 7.97901e-05 -49.8342 345.426 147.114 345.426C344.063 345.426 989 347 989 347"
+              stroke="white"
+              strokeWidth="24"
+            />
+          </svg>
+
+          <div className="w-[1128.45px] h-[423px] static">
+            <svg
+              className="absolute left-[260px] top-[3414px] overflow-visible"
+              style={{ transform: "translate(-0.02px, -359px)" }}
+              width="1026"
+              height="347"
+              viewBox="0 0 1026 347"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M32.3727 347C32.3727 347 670.359 347 872.914 347C1075.47 347 1077.12 1.5737 872.914 1.5737C668.707 1.5737 0 1.90735e-06 0 1.90735e-06"
+                stroke="white"
+                strokeWidth="24"
+              />
+            </svg>
+
+            <div className="w-[76px] h-[76px] static">
+              <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[506px] top-[3020px]"></div>
+              <div className="w-[40.24px] h-[40.24px] absolute left-[523.88px] top-[3037.88px] overflow-hidden">
+                <svg
+                  className="absolute left-[3.7px] top-[7.05px] overflow-visible"
+                  style={{}}
+                  width="34"
+                  height="27"
+                  viewBox="0 0 34 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.8961 1.32006 12.9153L2.50533 11.7301C3.48774 10.7476 5.07871 10.7476 6.06112 11.7301L11.9707 17.6396L27.9391 1.67123C28.9215 0.688815 30.5141 0.688815 31.4949 1.67123L32.6801 2.85649C33.6625 3.8389 33.6625 5.43155 32.6801 6.41229L13.1559 25.9381Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className="w-[76px] h-[76px] static">
+              <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[814px] top-[3020px]"></div>
+              <div className="w-[40.24px] h-[40.24px] absolute left-[831.88px] top-[3037.88px] overflow-hidden">
+                <svg
+                  className="absolute left-[3.7px] top-[7.05px] overflow-visible"
+                  style={{}}
+                  width="34"
+                  height="27"
+                  viewBox="0 0 34 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className="w-[76px] h-[76px] static">
+              <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[1128px] top-[3020px]"></div>
+              <div className="w-[40.24px] h-[40.24px] absolute left-[1145.88px] top-[3037.88px] overflow-hidden">
+                <svg
+                  className="absolute left-[3.7px] top-[7.05px] overflow-visible"
+                  style={{}}
+                  width="34"
+                  height="27"
+                  viewBox="0 0 34 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="w-[76px] h-[76px] static">
+                  <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[506px] top-[3367px]"></div>
+                </div>
+              </div>
+            </div>
+            <svg
+              className="absolute left-[515px] top-[3377px] overflow-visible"
+              style={{}}
+              width="55"
+              height="57"
+              viewBox="0 0 55 57"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+                fill="white"
+              />
+              <path
+                d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+                fill="white"
+              />
+              <path
+                d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+                fill="white"
+              />
+            </svg>
+
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="w-[76px] h-[76px] static">
+                  <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[814px] top-[3367px]"></div>
+                </div>
+              </div>
+            </div>
+            <svg
+              className="absolute left-[823px] top-[3377px] overflow-visible"
+              style={{}}
+              width="55"
+              height="57"
+              viewBox="0 0 55 57"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+                fill="white"
+              />
+              <path
+                d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+                fill="white"
+              />
+              <path
+                d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+                fill="white"
+              />
+            </svg>
+
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="w-[76px] h-[76px] static">
+                  <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[1128px] top-[3367px]"></div>
+                </div>
+              </div>
+            </div>
+            <svg
+              className="absolute left-[1137px] top-[3377px] overflow-visible"
+              style={{}}
+              width="55"
+              height="57"
+              viewBox="0 0 55 57"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+                fill="white"
+              />
+              <path
+                d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+                fill="white"
+              />
+              <path
+                d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+                fill="white"
+              />
+            </svg>
+
+            <div className="w-[182px] h-[92px] static">
+              <div
+                className="text-[#ffffff] text-center absolute left-[157px] top-[3110px] w-[182px] h-[92px]"
+                style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+              >
+                Dex Token Ico
+                <br />
+                And Community Build{" "}
+              </div>
+            </div>
+            <div className="w-[182px] h-[92px] static">
+              <div
+                className="text-[#ffffff] text-center absolute left-[458px] top-[3110px] w-[182px] h-[92px]"
+                style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+              >
+                Platform
+                <br />
+                Closed Beta Testing{" "}
+              </div>
+            </div>
+            <div className="w-[182px] h-[92px] static">
+              <div
+                className="text-[#ffffff] text-center absolute left-[764px] top-[3110px] w-[182px] h-[92px]"
+                style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+              >
+                CoinMarketCap
+                <br />
+                Listing{" "}
+              </div>
+            </div>
+            <div className="w-[182px] h-[92px] static">
+              <div
+                className="text-[#ffffff] text-center absolute left-[1062px] top-[3110px] w-[182px] h-[92px]"
+                style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+              >
+                Staking
+                <br />
+                Platform Release{" "}
+              </div>
+            </div>
+          </div>
+          <div className="w-[76px] h-[76px] static">
+            <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[200px] top-[3020px]"></div>
+            <div className="w-[40.24px] h-[40.24px] absolute left-[217.88px] top-[3037.88px] overflow-hidden">
+              <svg
+                className="absolute left-[3.7px] top-[7.05px] overflow-visible"
+                style={{}}
+                width="34"
+                height="27"
+                viewBox="0 0 34 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="w-[76px] h-[76px] static">
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[226px] top-[3367px]"></div>
+              </div>
+            </div>
+          </div>
+          <svg
+            className="absolute left-[235px] top-[3377px] overflow-visible"
+            style={{}}
+            width="55"
+            height="57"
+            viewBox="0 0 55 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+              fill="white"
+            />
+            <path
+              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+              fill="white"
+            />
+            <path
+              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+              fill="white"
+            />
+          </svg>
+
+          <div className="w-[76px] h-[76px] static">
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[218px] top-[3714px]"></div>
+              </div>
+            </div>
+          </div>
+          <svg
+            className="absolute left-[227px] top-[3724px] overflow-visible"
+            style={{}}
+            width="55"
+            height="57"
+            viewBox="0 0 55 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+              fill="white"
+            />
+            <path
+              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+              fill="white"
+            />
+            <path
+              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+              fill="white"
+            />
+          </svg>
+
+          <div className="w-[76px] h-[76px] static">
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[505px] top-[3714px]"></div>
+              </div>
+            </div>
+          </div>
+          <svg
+            className="absolute left-[514px] top-[3724px] overflow-visible"
+            style={{}}
+            width="55"
+            height="57"
+            viewBox="0 0 55 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+              fill="white"
+            />
+            <path
+              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+              fill="white"
+            />
+            <path
+              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+              fill="white"
+            />
+          </svg>
+
+          <div className="w-[76px] h-[76px] static">
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[812px] top-[3714px]"></div>
+              </div>
+            </div>
+          </div>
+          <svg
+            className="absolute left-[821px] top-[3724px] overflow-visible"
+            style={{}}
+            width="55"
+            height="57"
+            viewBox="0 0 55 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+              fill="white"
+            />
+            <path
+              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+              fill="white"
+            />
+            <path
+              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+              fill="white"
+            />
+          </svg>
+
+          <div className="w-[76px] h-[76px] static">
+            <div className="w-[76px] h-[76px] static">
+              <div className="w-[76px] h-[76px] static">
+                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[1128px] top-[3714px]"></div>
+              </div>
+            </div>
+          </div>
+          <svg
+            className="absolute left-[1137px] top-[3724px] overflow-visible"
+            style={{}}
+            width="55"
+            height="57"
+            viewBox="0 0 55 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
+              fill="white"
+            />
+            <path
+              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
+              fill="white"
+            />
+            <path
+              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
+              fill="white"
+            />
+          </svg>
+
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[185px] top-[3461px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Adding Another
+              <br />
+              Currency Support{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[453px] top-[3823px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              DexCrash Full
+              <br />
+              Mode Release{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[1075px] top-[3823px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Coming Soon ....
+              <br />{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[463px] top-[3461px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              DexCrash
+              <br />
+              Beta mode release{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[748px] top-[3461px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Adding
+              <br />
+              More Games ...{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[163px] top-[3823px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Adding Sports
+              <br />
+              Betting{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[764px] top-[3823px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Community Event
+              <br />{" "}
+            </div>
+          </div>
+          <div className="w-[182px] h-[92px] static">
+            <div
+              className="text-[#ffffff] text-center absolute left-[1080px] top-[3461px] w-[182px] h-[92px]"
+              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
+            >
+              Exchange Listing
+              <br />{" "}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* team section */}
+      <div className="absolute" style={{ inset: "0" }}>
+        <div
+          className="text-[#ffffff] text-left absolute left-[105px] top-[4019px] w-[139px]"
+          style={{ font: "600 25px/180.5% 'Poppins', sans-serif" }}
+        >
+          Our Team{" "}
+        </div>
+        <div className="w-[1264px] h-[253px] static">
+          <div className="w-[295px] h-[253px] static">
+            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[105px] top-[4117px]"></div>
+            <div className="w-[104px] h-[65px] static">
+              <div
+                className="text-[#ffffff] text-center absolute left-[230px]  top-[4275px]"
+                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
+              >
+                shiva{" "}
+              </div>
+              <div
+                className="text-[#e8e8e8] text-left absolute left-[234px] top-[4308px]"
+                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
+              >
+                Founder{" "}
+              </div>
+            </div>
+            <img
+              className="w-[123px] h-[123px] absolute left-[191px] top-[4152px]"
+              src="bill-1.png"
+            />
+          </div>
+          <div className="w-[295px] h-[253px] static">
+            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[428px] top-[4117px]"></div>
+            <div className="w-[104px] h-[65px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-[550px] top-[4275px]"
+                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
+              >
+                Marry{" "}
+              </div>
+              <div
+                className="text-[#e8e8e8] text-left absolute left-[537px] top-[4308px]"
+                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
+              >
+                Marketing Head{" "}
+              </div>
+            </div>
+            <img
+              className="w-[117px] h-[117px] absolute left-[517px] top-[4158px]"
+              src="beverly-1.png"
+            />
+          </div>
+          <div className="w-[295px] h-[253px] static">
+            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[751px] top-[4117px]"></div>
+            <div className="w-[104px] h-[65px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-[856px] top-[4275px]"
+                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
+              >
+                Supriya{" "}
+              </div>
+              <div
+                className="text-[#e8e8e8] text-left absolute left-[850px] top-[4308px]"
+                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
+              >
+                Ui Designer{" "}
+              </div>
+            </div>
+            <img
+              className="w-[109px] h-[109px] absolute left-[844px] top-[4162px]"
+              src="claudia-1.png"
+            />
+          </div>
+          <div className="w-[295px] h-[253px] static">
+            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[1074px] top-[4117px]"></div>
+            <div className="w-[104px] h-[65px] static">
+              <div
+                className="text-[#ffffff] text-left absolute left-[1200px] top-[4275px]"
+                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
+              >
+                Nitin{" "}
+              </div>
+              <div
+                className="text-[#e8e8e8] text-left absolute left-[1190px] top-[4308px]"
+                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
+              >
+                Game Dev{" "}
+              </div>
+            </div>
+            <img
+              className="w-[106px] h-[106px] absolute left-[1169px] top-[4164px]"
+              src="avatar-1.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="absolute" style={{ inset: "0" }}>
+        <div className="w-[545px] h-[129px] static">
+          <div
+            className="text-[#ffffff] text-left absolute left-[152px] top-[4486px] w-[209px] h-10"
+            style={{ font: "600 30px/187.5% 'Poppins', sans-serif" }}
+          >
+            Lorem Ipsum{" "}
+          </div>
+          <div
+            className="text-[#ffffff] text-left absolute left-[152px] top-[4558px] w-[545px] h-[57px]"
+            style={{ font: "400 16px/187.5% 'Poppins', sans-serif" }}
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.{" "}
+          </div>
+        </div>
+        <div className="w-[1170px] h-[189px] static">
+          <div className="bg-[#1c140f] rounded-[15px] w-[1170px] h-[189px] absolute left-[152px] top-[4689px]"></div>
+          <div className="w-[636px] h-[107px] static">
+            <div
+              className="text-[#ffffff] text-left absolute left-52 top-[4729px] w-[303px]"
+              style={{ font: "500 30px 'Poppins', sans-serif" }}
+            >
+              Stay in the loop{" "}
+            </div>
+            <div
+              className="text-[#ffffff] text-left absolute left-52 top-[4784px] w-[636px]"
+              style={{ font: "400 17px 'Poppins', sans-serif" }}
+            >
+              Subscribe to receive the latest news and updates about TDA.
+              <br />
+              We promise not to spam you!{" "}
+            </div>
+          </div>
+          <div className="w-[385.68px] h-12 static">
+            <div className="bg-[#ffffff] rounded-lg w-[385.68px] h-12 absolute left-[886.32px] top-[4760px]"></div>
+            <div className="bg-[#dc7000] rounded-lg w-[105px] h-[37px] absolute left-[1160.77px] top-[4766px]"></div>
+            <div
+              className="text-[#ffffff] text-center absolute left-[1182.96px] top-[4774px] w-[69.3px]"
+              style={{ font: "400 13px 'Poppins', sans-serif" }}
+            >
+              Continue{" "}
+            </div>
+            <div
+              className="text-[#898989] text-center absolute left-[906.87px] top-[4774px] w-[155.1px]"
+              style={{ font: "300 13px 'Poppins', sans-serif" }}
+            >
+              Enter email address{" "}
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="absolute" style={{ inset: "0" }}>
         <div className="bg-[#070707] w-[100%] h-[376px] absolute left-0 top-[5006px]"></div>
         <div className="w-[100%] h-[268px] static">
@@ -328,1488 +3380,6 @@ export const Home = ({ ...props }) => {
         >
           LOGO{" "}
         </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div className="w-[545px] h-[129px] static">
-          <div
-            className="text-[#ffffff] text-left absolute left-[152px] top-[4486px] w-[209px] h-10"
-            style={{ font: "600 30px/187.5% 'Poppins', sans-serif" }}
-          >
-            Lorem Ipsum{" "}
-          </div>
-          <div
-            className="text-[#ffffff] text-left absolute left-[152px] top-[4558px] w-[545px] h-[57px]"
-            style={{ font: "400 16px/187.5% 'Poppins', sans-serif" }}
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.{" "}
-          </div>
-        </div>
-        <div className="w-[1170px] h-[189px] static">
-          <div className="bg-[#1c140f] rounded-[15px] w-[1170px] h-[189px] absolute left-[152px] top-[4689px]"></div>
-          <div className="w-[636px] h-[107px] static">
-            <div
-              className="text-[#ffffff] text-left absolute left-52 top-[4729px] w-[303px]"
-              style={{ font: "500 30px 'Poppins', sans-serif" }}
-            >
-              Stay in the loop{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left absolute left-52 top-[4784px] w-[636px]"
-              style={{ font: "400 17px 'Poppins', sans-serif" }}
-            >
-              Subscribe to receive the latest news and updates about TDA.
-              <br />
-              We promise not to spam you!{" "}
-            </div>
-          </div>
-          <div className="w-[385.68px] h-12 static">
-            <div className="bg-[#ffffff] rounded-lg w-[385.68px] h-12 absolute left-[886.32px] top-[4760px]"></div>
-            <div className="bg-[#dc7000] rounded-lg w-[105px] h-[37px] absolute left-[1160.77px] top-[4766px]"></div>
-            <div
-              className="text-[#ffffff] text-center absolute left-[1182.96px] top-[4774px] w-[69.3px]"
-              style={{ font: "400 13px 'Poppins', sans-serif" }}
-            >
-              Continue{" "}
-            </div>
-            <div
-              className="text-[#898989] text-center absolute left-[906.87px] top-[4774px] w-[155.1px]"
-              style={{ font: "300 13px 'Poppins', sans-serif" }}
-            >
-              Enter email address{" "}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div className="bg-[#dc7000] rounded-[20px] w-[31px] h-1 absolute left-[689px] top-[83px]"></div>
-        <div className="bg-[#dc7000] rounded-[20px] w-[5px] h-1 absolute left-[723px] top-[83px]"></div>
-      </div>
-      <div
-        className="from-white to-blue-500 text-transparent bg-clip-text  bg-gradient-to-r text-left font-extrabold text-base md:block  lg:text-[2rem] md:text-[2rem] absolute left-[47px] top-[45px]"
-        style={{ font: "800 29px/153.5% 'Poppins', sans-serif" }}
-      >
-        DexCrash{" "}
-      </div>
-      <img
-        className="w-[65px] h-[65px] absolute left-[196px] top-[35px]"
-        src="rectangle-8.png"
-      />
-      <div
-        className="text-[#ffffff] text-left absolute left-[506px] top-[2851px] w-[354px] h-[99px]"
-        style={{ font: "800 66px/180.5% 'Poppins', sans-serif" }}
-      >
-        ROADMAP{" "}
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <svg
-          className="absolute left-[1149px] top-[3414px] overflow-visible"
-          style={{ transform: "translate(-1001px, -12px)" }}
-          width="989"
-          height="347"
-          viewBox="0 0 989 347"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M957.778 2.72952e-06C957.778 2.72952e-06 342.469 6.74099e-05 147.114 7.36e-05C-48.2404 7.97901e-05 -49.8342 345.426 147.114 345.426C344.063 345.426 989 347 989 347"
-            stroke="white"
-            strokeWidth="24"
-          />
-        </svg>
-
-        <div className="w-[1128.45px] h-[423px] static">
-          <svg
-            className="absolute left-[260px] top-[3414px] overflow-visible"
-            style={{ transform: "translate(-0.02px, -359px)" }}
-            width="1026"
-            height="347"
-            viewBox="0 0 1026 347"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M32.3727 347C32.3727 347 670.359 347 872.914 347C1075.47 347 1077.12 1.5737 872.914 1.5737C668.707 1.5737 0 1.90735e-06 0 1.90735e-06"
-              stroke="white"
-              strokeWidth="24"
-            />
-          </svg>
-
-          <div className="w-[76px] h-[76px] static">
-            <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[506px] top-[3020px]"></div>
-            <div className="w-[40.24px] h-[40.24px] absolute left-[523.88px] top-[3037.88px] overflow-hidden">
-              <svg
-                className="absolute left-[3.7px] top-[7.05px] overflow-visible"
-                style={{}}
-                width="34"
-                height="27"
-                viewBox="0 0 34 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.8961 1.32006 12.9153L2.50533 11.7301C3.48774 10.7476 5.07871 10.7476 6.06112 11.7301L11.9707 17.6396L27.9391 1.67123C28.9215 0.688815 30.5141 0.688815 31.4949 1.67123L32.6801 2.85649C33.6625 3.8389 33.6625 5.43155 32.6801 6.41229L13.1559 25.9381Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="w-[76px] h-[76px] static">
-            <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[814px] top-[3020px]"></div>
-            <div className="w-[40.24px] h-[40.24px] absolute left-[831.88px] top-[3037.88px] overflow-hidden">
-              <svg
-                className="absolute left-[3.7px] top-[7.05px] overflow-visible"
-                style={{}}
-                width="34"
-                height="27"
-                viewBox="0 0 34 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="w-[76px] h-[76px] static">
-            <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[1128px] top-[3020px]"></div>
-            <div className="w-[40.24px] h-[40.24px] absolute left-[1145.88px] top-[3037.88px] overflow-hidden">
-              <svg
-                className="absolute left-[3.7px] top-[7.05px] overflow-visible"
-                style={{}}
-                width="34"
-                height="27"
-                viewBox="0 0 34 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="w-[76px] h-[76px] static">
-                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[506px] top-[3367px]"></div>
-              </div>
-            </div>
-          </div>
-          <svg
-            className="absolute left-[515px] top-[3377px] overflow-visible"
-            style={{}}
-            width="55"
-            height="57"
-            viewBox="0 0 55 57"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-              fill="white"
-            />
-            <path
-              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-              fill="white"
-            />
-            <path
-              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-              fill="white"
-            />
-          </svg>
-
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="w-[76px] h-[76px] static">
-                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[814px] top-[3367px]"></div>
-              </div>
-            </div>
-          </div>
-          <svg
-            className="absolute left-[823px] top-[3377px] overflow-visible"
-            style={{}}
-            width="55"
-            height="57"
-            viewBox="0 0 55 57"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-              fill="white"
-            />
-            <path
-              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-              fill="white"
-            />
-            <path
-              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-              fill="white"
-            />
-          </svg>
-
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="w-[76px] h-[76px] static">
-                <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[1128px] top-[3367px]"></div>
-              </div>
-            </div>
-          </div>
-          <svg
-            className="absolute left-[1137px] top-[3377px] overflow-visible"
-            style={{}}
-            width="55"
-            height="57"
-            viewBox="0 0 55 57"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-              fill="white"
-            />
-            <path
-              d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-              fill="white"
-            />
-            <path
-              d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-              fill="white"
-            />
-          </svg>
-
-          <div className="w-[182px] h-[92px] static">
-            <div
-              className="text-[#ffffff] text-center absolute left-[157px] top-[3110px] w-[182px] h-[92px]"
-              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-            >
-              Lancement
-              <br />
-              de la beta{" "}
-            </div>
-          </div>
-          <div className="w-[182px] h-[92px] static">
-            <div
-              className="text-[#ffffff] text-center absolute left-[458px] top-[3110px] w-[182px] h-[92px]"
-              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-            >
-              Lancement
-              <br />
-              de la beta{" "}
-            </div>
-          </div>
-          <div className="w-[182px] h-[92px] static">
-            <div
-              className="text-[#ffffff] text-center absolute left-[764px] top-[3110px] w-[182px] h-[92px]"
-              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-            >
-              Lancement
-              <br />
-              de la beta{" "}
-            </div>
-          </div>
-          <div className="w-[182px] h-[92px] static">
-            <div
-              className="text-[#ffffff] text-center absolute left-[1062px] top-[3110px] w-[182px] h-[92px]"
-              style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-            >
-              Lancement
-              <br />
-              de la beta{" "}
-            </div>
-          </div>
-        </div>
-        <div className="w-[76px] h-[76px] static">
-          <div className="bg-[#2cd776] rounded-[50%] border-solid border-[#ffffff] border-[20px] w-[76px] h-[76px] absolute left-[200px] top-[3020px]"></div>
-          <div className="w-[40.24px] h-[40.24px] absolute left-[217.88px] top-[3037.88px] overflow-hidden">
-            <svg
-              className="absolute left-[3.7px] top-[7.05px] overflow-visible"
-              style={{}}
-              width="34"
-              height="27"
-              viewBox="0 0 34 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.1559 25.9381C12.8424 26.2533 12.4149 26.4293 11.9707 26.4293C11.5264 26.4293 11.0989 26.2533 10.7854 25.9381L1.32006 16.4711C0.337649 15.4887 0.337649 13.896 1.32006 12.9153L2.50533 11.73C3.48774 10.7476 5.07871 10.7476 6.06112 11.73L11.9707 17.6396L27.9391 1.6712C28.9215 0.688784 30.5141 0.688784 31.4949 1.6712L32.6801 2.85646C33.6625 3.83887 33.6625 5.43152 32.6801 6.41226L13.1559 25.9381Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-        </div>
-        <div className="w-[76px] h-[76px] static">
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[226px] top-[3367px]"></div>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="absolute left-[235px] top-[3377px] overflow-visible"
-          style={{}}
-          width="55"
-          height="57"
-          viewBox="0 0 55 57"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-            fill="white"
-          />
-          <path
-            d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-            fill="white"
-          />
-          <path
-            d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-            fill="white"
-          />
-        </svg>
-
-        <div className="w-[76px] h-[76px] static">
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[218px] top-[3714px]"></div>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="absolute left-[227px] top-[3724px] overflow-visible"
-          style={{}}
-          width="55"
-          height="57"
-          viewBox="0 0 55 57"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-            fill="white"
-          />
-          <path
-            d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-            fill="white"
-          />
-          <path
-            d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-            fill="white"
-          />
-        </svg>
-
-        <div className="w-[76px] h-[76px] static">
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[505px] top-[3714px]"></div>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="absolute left-[514px] top-[3724px] overflow-visible"
-          style={{}}
-          width="55"
-          height="57"
-          viewBox="0 0 55 57"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-            fill="white"
-          />
-          <path
-            d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-            fill="white"
-          />
-          <path
-            d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-            fill="white"
-          />
-        </svg>
-
-        <div className="w-[76px] h-[76px] static">
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[812px] top-[3714px]"></div>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="absolute left-[821px] top-[3724px] overflow-visible"
-          style={{}}
-          width="55"
-          height="57"
-          viewBox="0 0 55 57"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-            fill="white"
-          />
-          <path
-            d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-            fill="white"
-          />
-          <path
-            d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-            fill="white"
-          />
-        </svg>
-
-        <div className="w-[76px] h-[76px] static">
-          <div className="w-[76px] h-[76px] static">
-            <div className="w-[76px] h-[76px] static">
-              <div className="bg-[#3784e9] rounded-[50%] w-[76px] h-[76px] absolute left-[1128px] top-[3714px]"></div>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="absolute left-[1137px] top-[3724px] overflow-visible"
-          style={{}}
-          width="55"
-          height="57"
-          viewBox="0 0 55 57"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.96321 30.1791L12.1299 39.6791C12.3413 39.906 12.5941 40.0869 12.8737 40.2114C13.1533 40.3358 13.454 40.4014 13.7583 40.4041C14.0626 40.4068 14.3644 40.3468 14.646 40.2273C14.9277 40.1079 15.1835 39.9316 15.3987 39.7086C15.6139 39.4856 15.784 39.2204 15.8993 38.9285C16.0145 38.6366 16.0725 38.3239 16.0698 38.0086C16.0672 37.6932 16.004 37.3816 15.8839 37.0918C15.7638 36.802 15.5892 36.54 15.3703 36.3209L7.82383 28.5L15.3703 20.6791C15.5892 20.46 15.7638 20.198 15.8839 19.9082C16.004 19.6185 16.0672 19.3068 16.0698 18.9915C16.0725 18.6761 16.0145 18.3634 15.8993 18.0715C15.784 17.7796 15.6139 17.5144 15.3987 17.2914C15.1835 17.0685 14.9277 16.8921 14.646 16.7727C14.3644 16.6533 14.0626 16.5932 13.7583 16.5959C13.454 16.5987 13.1533 16.6642 12.8737 16.7886C12.5941 16.9131 12.3413 17.094 12.1299 17.3209L2.96321 26.8209C2.53358 27.2663 2.29224 27.8702 2.29224 28.5C2.29224 29.1298 2.53358 29.7338 2.96321 30.1791Z"
-            fill="white"
-          />
-          <path
-            d="M42.8702 17.3209C42.6588 17.094 42.4059 16.9131 42.1263 16.7886C41.8468 16.6642 41.546 16.5987 41.2418 16.5959C40.9375 16.5932 40.6357 16.6533 40.3541 16.7727C40.0724 16.8921 39.8166 17.0685 39.6014 17.2914C39.3862 17.5144 39.2161 17.7796 39.1008 18.0715C38.9856 18.3634 38.9276 18.6761 38.9303 18.9915C38.9329 19.3068 38.9961 19.6185 39.1162 19.9082C39.2363 20.198 39.4109 20.46 39.6298 20.6791L47.1763 28.5L39.6298 36.3209C39.4109 36.54 39.2363 36.802 39.1162 37.0918C38.9961 37.3816 38.9329 37.6932 38.9303 38.0086C38.9276 38.3239 38.9856 38.6366 39.1008 38.9285C39.2161 39.2204 39.3862 39.4856 39.6014 39.7086C39.8166 39.9316 40.0724 40.1079 40.3541 40.2273C40.6357 40.3468 40.9375 40.4068 41.2418 40.4041C41.546 40.4014 41.8468 40.3358 42.1263 40.2114C42.4059 40.0869 42.6588 39.906 42.8702 39.6791L52.0369 30.1791C52.4665 29.7338 52.7078 29.1298 52.7078 28.5C52.7078 27.8702 52.4665 27.2663 52.0369 26.8209L42.8702 17.3209Z"
-            fill="white"
-          />
-          <path
-            d="M29.8811 11.2242L20.7144 44.4742C20.5475 45.0795 20.6194 45.7288 20.9142 46.2792C21.2089 46.8296 21.7025 47.2363 22.2865 47.4097C22.4918 47.4685 22.7037 47.4988 22.9167 47.5C23.4147 47.4996 23.899 47.3311 24.2964 47.02C24.6938 46.7089 24.9825 46.2721 25.119 45.7757L34.2856 12.5257C34.3812 12.2221 34.4166 11.9016 34.3899 11.5834C34.3632 11.2652 34.2748 10.9559 34.1301 10.674C33.9853 10.392 33.7872 10.1432 33.5475 9.94242C33.3079 9.74164 33.0316 9.59302 32.7352 9.50545C32.4389 9.41788 32.1285 9.39316 31.8227 9.43276C31.5169 9.47236 31.222 9.57547 30.9555 9.73593C30.6891 9.89639 30.4566 10.1109 30.272 10.3666C30.0874 10.6223 29.9544 10.914 29.8811 11.2242Z"
-            fill="white"
-          />
-        </svg>
-
-        <div className="w-[182px] h-[92px] static">
-          <div
-            className="text-[#ffffff] text-center absolute left-[185px] top-[3461px] w-[182px] h-[92px]"
-            style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-          >
-            Lancement
-            <br />
-            de la beta{" "}
-          </div>
-        </div>
-        <div className="w-[182px] h-[92px] static">
-          <div
-            className="text-[#ffffff] text-center absolute left-[463px] top-[3461px] w-[182px] h-[92px]"
-            style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-          >
-            Lancement
-            <br />
-            de la beta{" "}
-          </div>
-        </div>
-        <div className="w-[182px] h-[92px] static">
-          <div
-            className="text-[#ffffff] text-center absolute left-[748px] top-[3461px] w-[182px] h-[92px]"
-            style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-          >
-            Lancement
-            <br />
-            de la beta{" "}
-          </div>
-        </div>
-        <div className="w-[182px] h-[92px] static">
-          <div
-            className="text-[#ffffff] text-center absolute left-[1080px] top-[3461px] w-[182px] h-[92px]"
-            style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-          >
-            Lancement
-            <br />
-            de la beta{" "}
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-left absolute left-[105px] top-[4019px] w-[139px]"
-          style={{ font: "600 25px/180.5% 'Poppins', sans-serif" }}
-        >
-          Our Team{" "}
-        </div>
-        <div className="w-[1264px] h-[253px] static">
-          <div className="w-[295px] h-[253px] static">
-            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[105px] top-[4117px]"></div>
-            <div className="w-[104px] h-[65px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[201px] top-[4275px]"
-                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
-              >
-                John peter{" "}
-              </div>
-              <div
-                className="text-[#e8e8e8] text-left absolute left-[234px] top-[4308px]"
-                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
-              >
-                COO{" "}
-              </div>
-            </div>
-            <img
-              className="w-[123px] h-[123px] absolute left-[191px] top-[4152px]"
-              src="bill-1.png"
-            />
-          </div>
-          <div className="w-[295px] h-[253px] static">
-            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[428px] top-[4117px]"></div>
-            <div className="w-[104px] h-[65px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[524px] top-[4275px]"
-                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
-              >
-                John peter{" "}
-              </div>
-              <div
-                className="text-[#e8e8e8] text-left absolute left-[557px] top-[4308px]"
-                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
-              >
-                COO{" "}
-              </div>
-            </div>
-            <img
-              className="w-[117px] h-[117px] absolute left-[517px] top-[4158px]"
-              src="beverly-1.png"
-            />
-          </div>
-          <div className="w-[295px] h-[253px] static">
-            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[751px] top-[4117px]"></div>
-            <div className="w-[104px] h-[65px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[847px] top-[4275px]"
-                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
-              >
-                John peter{" "}
-              </div>
-              <div
-                className="text-[#e8e8e8] text-left absolute left-[880px] top-[4308px]"
-                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
-              >
-                COO{" "}
-              </div>
-            </div>
-            <img
-              className="w-[109px] h-[109px] absolute left-[844px] top-[4162px]"
-              src="claudia-1.png"
-            />
-          </div>
-          <div className="w-[295px] h-[253px] static">
-            <div className="bg-[#1c140f] rounded-[20px] w-[295px] h-[253px] absolute left-[1074px] top-[4117px]"></div>
-            <div className="w-[104px] h-[65px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[1170px] top-[4275px]"
-                style={{ font: "600 19px/202.5% 'Poppins', sans-serif" }}
-              >
-                John peter{" "}
-              </div>
-              <div
-                className="text-[#e8e8e8] text-left absolute left-[1203px] top-[4308px]"
-                style={{ font: "300 16px/202.5% 'Poppins', sans-serif" }}
-              >
-                COO{" "}
-              </div>
-            </div>
-            <img
-              className="w-[106px] h-[106px] absolute left-[1169px] top-[4164px]"
-              src="avatar-1.png"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-left absolute left-[123px] top-[1571px] w-[237px]"
-          style={{ font: "600 25px/180.5% 'Poppins', sans-serif" }}
-        >
-          Why DexCrash{" "}
-        </div>
-        <div className="w-[378px] h-[348px] static">
-          <div
-            className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[123px] top-[1679px]"
-            style={{ boxShadow: "0px 4px 94px 0px rgba(0, 0, 0, 0.15)" }}
-          ></div>
-          <div className="w-[304px] h-[162px] static">
-            <div
-              className="text-[#ffffff] text-left absolute left-40 top-[1855px] w-[304px] h-[108px]"
-              style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#039;s standard dummy
-              text ever since the 1500s,{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left absolute left-40 top-[1801px]"
-              style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
-            >
-              Lorem Ipsum{" "}
-            </div>
-          </div>
-          <div className="w-[140px] h-[39px] static">
-            <div className="bg-[rgba(176,0,220,0.11)] rounded-lg w-[140px] h-[39px] absolute left-40 top-[1743px]"></div>
-            <div
-              className="text-[#ffffff] text-left absolute left-[174px] top-[1750px]"
-              style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-            >
-              Lorem ipsum{" "}
-            </div>
-          </div>
-        </div>
-        <div className="w-[378px] h-[348px] static">
-          <div className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[544px] top-[1679px]"></div>
-          <div className="w-[304px] h-[220px] static">
-            <div className="w-[304px] h-[162px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[581px] top-[1855px] w-[304px] h-[108px]"
-                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&#039;s standard
-                dummy text ever since the 1500s,{" "}
-              </div>
-              <div
-                className="text-[#ffffff] text-left absolute left-[581px] top-[1801px]"
-                style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem Ipsum{" "}
-              </div>
-            </div>
-            <div className="w-[140px] h-[39px] static">
-              <div className="bg-[rgba(220,66,0,0.11)] rounded-lg w-[140px] h-[39px] absolute left-[581px] top-[1743px]"></div>
-              <div
-                className="text-[#ffffff] text-left absolute left-[605px] top-[1750px]"
-                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem ipsum{" "}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[378px] h-[348px] static">
-          <div className="bg-[#1c140f] rounded-[20px] w-[378px] h-[348px] absolute left-[965px] top-[1679px]"></div>
-          <div className="w-[304px] h-[220px] static">
-            <div className="w-[304px] h-[162px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[1002px] top-[1855px] w-[304px] h-[108px]"
-                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&#039;s standard
-                dummy text ever since the 1500s,{" "}
-              </div>
-              <div
-                className="text-[#ffffff] text-left absolute left-[1002px] top-[1801px]"
-                style={{ font: "600 20px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem Ipsum{" "}
-              </div>
-            </div>
-            <div className="w-[140px] h-[39px] static">
-              <div className="bg-[rgba(0,220,141,0.11)] rounded-lg w-[140px] h-[39px] absolute left-[1002px] top-[1743px]"></div>
-              <div
-                className="text-[#ffffff] text-left absolute left-[1026px] top-[1750px]"
-                style={{ font: "400 14px/187.5% 'Poppins', sans-serif" }}
-              >
-                Lorem ipsum{" "}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <img
-          className="w-[370px] h-[495px] absolute left-40 top-[940px]"
-          src="rectangle-262.png"
-        />
-        <div className="w-[578.08px] h-[464px] static">
-          <div className="w-[578.08px] h-[464px] static">
-            <div className="w-[509.05px] h-[90px] static">
-              <div
-                className="text-[#ffffff] text-left absolute left-[767.92px] top-[940px] w-[509.05px]"
-                style={{ font: "500 30px 'Poppins', sans-serif" }}
-              >
-                Lorem Ipsum is simply dummy <br />
-                text dummy text{" "}
-              </div>
-            </div>
-            <div
-              className="text-[#ffffff] text-left absolute left-[767.92px] top-[1073px] w-[578.08px] h-[159px]"
-              style={{ font: "400 17px 'Poppins', sans-serif" }}
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#039;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries,{" "}
-            </div>
-            <div
-              className="text-[#ffffff] text-left absolute left-[767.92px] top-[1250px] w-[547.88px] h-[58px]"
-              style={{ font: "400 17px 'Poppins', sans-serif" }}
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.{" "}
-            </div>
-            <div className="w-[190.89px] h-[50px] static">
-              <div className="bg-[#dc7000] w-[190.89px] h-[50px] absolute left-[767.92px] top-[1354px]"></div>
-              <button
-                className="text-[#ffffff] flex justify-center items-center text-left absolute left-[816.46px] top-[1367px] w-[94.91px]"
-                style={{ font: "400 16px 'Poppins', sans-serif" }}
-              >
-                Read more{" "}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-center absolute left-[163px] top-[3823px] w-[182px] h-[92px]"
-          style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-        >
-          Lancement
-          <br />
-          de la beta{" "}
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-center absolute left-[453px] top-[3823px] w-[182px] h-[92px]"
-          style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-        >
-          Lancement
-          <br />
-          de la beta{" "}
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-center absolute left-[764px] top-[3823px] w-[182px] h-[92px]"
-          style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-        >
-          Lancement
-          <br />
-          de la beta{" "}
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div
-          className="text-[#ffffff] text-center absolute left-[1075px] top-[3823px] w-[182px] h-[92px]"
-          style={{ font: "500 24px/129.5% 'Poppins', sans-serif" }}
-        >
-          Lancement
-          <br />
-          de la beta{" "}
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div className="w-[669px] h-[408px] absolute left-[123px] top-[2342px]">
-          <div className="absolute" style={{ inset: "0" }}>
-            <div
-              className="text-[#ffffff] text-left absolute left-[602px] top-[35px] w-[107px] h-7"
-              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
-            >
-              Staking{" "}
-            </div>
-            <div
-              className="text-[#ff703b] text-left absolute left-[601.64px] top-[4.05px] w-[77.51px] h-[27.33px]"
-              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
-            >
-              30%{" "}
-            </div>
-          </div>
-          <div className="absolute" style={{ inset: "0" }}>
-            <div
-              className="text-[#ffffff] text-left absolute left-[601.67px] top-[360.6px] w-[77.48px] h-[27.88px]"
-              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
-            >
-              Liquidity{" "}
-            </div>
-            <div
-              className="text-[#39cef3] text-left absolute left-[601.67px] top-[329px] w-[58.11px] h-[27.88px]"
-              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
-            >
-              25%{" "}
-            </div>
-          </div>
-          <div className="absolute" style={{ inset: "0" }}>
-            <div
-              className="text-[#ffffff] text-left absolute left-[-13.84px] top-[360.6px] w-[43.14px] h-[27.88px]"
-              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
-            >
-              Sale{" "}
-            </div>
-            <div
-              className="text-[#39cef3] text-left absolute left-[-13.84px] top-[329px] w-[63.05px] h-[27.88px]"
-              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
-            >
-              20%{" "}
-            </div>
-          </div>
-          <div className="absolute" style={{ inset: "0" }}>
-            <div
-              className="text-[#ffffff] text-left absolute left-[-13.84px] top-[181.23px] w-[91.53px] h-[27.88px]"
-              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
-            >
-              Marketing{" "}
-            </div>
-            <div
-              className="text-[#39cef3] text-left absolute left-[-13.84px] top-[149.63px] w-[57.97px] h-[27.88px]"
-              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
-            >
-              15%{" "}
-            </div>
-          </div>
-          <div className="absolute" style={{ inset: "0" }}>
-            <div
-              className="text-[#ffffff] text-left absolute left-[-23.07px] top-[35.32px] w-[63.4px] h-[27.88px]"
-              style={{ font: "400 20px/30px 'Roboto', sans-serif" }}
-            >
-              Team{" "}
-            </div>
-            <div
-              className="text-[#9ad960] text-left absolute left-[-23.07px] top-[3.72px] w-[72.27px] h-[27.88px]"
-              style={{ font: "700 30px/30px 'Roboto', sans-serif" }}
-            >
-              10%{" "}
-            </div>
-          </div>
-          <div
-            className="bg-[#ffffff] rounded-[50%] w-[378.96px] h-[408px] absolute left-[137.25px] top-0"
-            style={{ boxShadow: "0px 4px 50px 0px rgba(0, 0, 0, 0.08)" }}
-          ></div>
-          <div className="w-[342.78px] h-[369.05px] absolute left-[155.38px] top-[19.52px] overflow-hidden">
-            <img
-              className="w-[342.78px] h-[369.05px] absolute "
-              src="rectangle-82.png"
-            />
-          </div>
-          <svg
-            className="absolute left-[66.47px] top-[26.49px] overflow-visible"
-            style={{}}
-            width="153"
-            height="28"
-            viewBox="0 0 153 28"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.468262 0.487488H107.94L152.828 27.4397"
-              stroke="#CDCDCD"
-              strokeWidth="2"
-              strokeDasharray="2 2"
-            />
-          </svg>
-
-          <svg
-            className="absolute left-[586.56px] top-[26.49px] overflow-visible"
-            style={{ transform: "translate(-152.87px, -1px)" }}
-            width="153"
-            height="28"
-            viewBox="0 0 153 28"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M152.562 0.487488H45.0904L0.202665 27.4397"
-              stroke="#CDCDCD"
-              strokeWidth="2"
-              strokeDasharray="2 2"
-            />
-          </svg>
-
-          <svg
-            className="absolute left-[586.56px] top-[360.6px] overflow-visible"
-            style={{ transform: "translate(-131.7px, -25.5px)" }}
-            width="132"
-            height="26"
-            viewBox="0 0 132 26"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M131.562 25.6013H43.9446L0.351696 0.972646"
-              stroke="#CDCDCD"
-              strokeWidth="2"
-              strokeDasharray="2 2"
-            />
-          </svg>
-
-          <svg
-            className="absolute left-[66.47px] top-[360.6px] overflow-visible"
-            style={{ transform: "translate(0px, -22.29px)" }}
-            width="133"
-            height="22"
-            viewBox="0 0 133 22"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.468262 21.6013H83.7696L132.11 0.225494"
-              stroke="#CDCDCD"
-              strokeWidth="2"
-              strokeDasharray="2 2"
-            />
-          </svg>
-
-          <svg
-            className="absolute left-[66.47px] top-[183.79px] overflow-visible"
-           style={{ transform: "translate(0px, -22.29px)" }}
-            width="133"
-            height="22"
-            viewBox="0 0 133 22"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-               d="M0 0H45.751L85.0277 0"
-              stroke="#CDCDCD"
-              strokeWidth="2"
-              strokeDasharray="2 2"
-            />
-          </svg>
-        </div>
-        <div
-          className="text-[#ffffff] text-left absolute left-[507px] top-[2156px] w-[547px] h-[99px]"
-          style={{ font: "800 66px/180.5% 'Poppins', sans-serif" }}
-        >
-          Token Nomics{" "}
-        </div>
-        <div className="w-[453px] h-[408px] static">
-          <div
-            className="bg-[#ffffff] rounded-[20px] w-[453px] h-[408px] absolute left-[909px] top-[2339px]"
-            style={{ boxShadow: "0px 4px 94px 0px rgba(0, 0, 0, 0.15)" }}
-          ></div>
-          <div
-            className="text-[#3784e9] text-left absolute left-[958px] top-[2551px] w-[238px] h-[45px]"
-            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
-          >
-            DECIMAL =&gt; 18{" "}
-          </div>
-          <div className="w-[238px] h-[90px] static">
-            <div
-              className="text-[#3784e9] text-left absolute left-[958px] top-[2461px] w-[238px] h-[45px]"
-              style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
-            >
-              NAME =&gt; DEX TOKEN{" "}
-            </div>
-            <div
-              className="text-[#3784e9] text-left absolute left-[958px] top-[2506px] w-[238px] h-[45px]"
-              style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
-            >
-              SYMBOL =&gt; DEX{" "}
-            </div>
-          </div>
-          <div className="w-[167.78px] h-[45.72px] static">
-            <div className="bg-[#dc7000] rounded-lg w-[167.78px] h-[45.72px] absolute left-[1058px] top-[2368px]"></div>
-            <div
-              className="text-[#ffffff] text-left absolute left-[1087px] top-[2376px] w-[109.06px] h-[30.48px]"
-              style={{ font: "400 18px/187.5% 'Poppins', sans-serif" }}
-            >
-              DEX TOKEN{" "}
-            </div>
-          </div>
-          <div
-            className="text-[#3784e9] text-left absolute left-[958px] top-[2596px] w-[370px] h-[45px]"
-            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
-          >
-            TOTAL SUPPLY =&gt; 10 BILLION TOKEN{" "}
-          </div>
-          <div
-            className="text-[#3784e9] text-left absolute left-[959px] top-[2633px] w-[353px] h-[45px]"
-            style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
-          >
-            ADDRESS =&gt; 0xe9e7C...087D56{" "}
-          </div>
-        </div>
-      </div>
-      <div className="absolute" style={{ inset: "0" }}>
-        <div className="w-[546.04px] h-[337.27px] static">
-          <svg
-            className="rounded-none absolute left-[799.98px] top-[271px] overflow-visible"
-            style={{}}
-            width="548"
-            height="338"
-            viewBox="0 0 548 338"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.75623 34.3078C2.75623 16.3402 17.3219 1.77454 35.2895 1.77454H512.71C530.678 1.77454 545.244 16.3402 545.244 34.3078V335.495H2.75623V34.3078Z"
-              stroke="url(#paint0_linear_328_71)"
-              strokeWidth="3.54908"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_328_71"
-                x1="-9.76706"
-                y1="-4.6014e-06"
-                x2="117.176"
-                y2="138.165"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#A8A8A8" />
-                <stop offset="1" stopColor="#737475" />
-              </linearGradient>
-            </defs>
-          </svg>
-
-          <svg
-            className="rounded-none absolute left-[801.59px] top-[272.47px] overflow-visible"
-            style={{}}
-            width="544"
-            height="337"
-            viewBox="0 0 544 337"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.36854 31.2317C2.36854 15.2241 15.3452 2.24744 31.3527 2.24744H512.647C528.655 2.24744 541.631 15.2241 541.631 31.2316V334.495H2.36854V31.2317Z"
-              fill="black"
-              stroke="#2D2E31"
-              strokeWidth="3.54908"
-            />
-          </svg>
-
-          <div className="bg-[#ffffff] rounded-tl-[14.2px] rounded-tr-[14.2px] w-[528.84px] h-[312.27px] absolute left-[808.58px] top-[279.35px] overflow-hidden">
-            <div className="bg-[#ffffff] w-[538px] h-[324px] absolute left-[-5.58px] top-[-6.35px]">
-              <img
-                className="w-[538px] h-[345px] absolute left-0 top-0"
-                src="grafikstash-com.png"
-              />
-            </div>
-          </div>
-          <div className="w-[73.09px] h-[14.24px] static">
-            <svg
-              className="rounded-none absolute left-[1036.45px] top-[273.95px] overflow-visible"
-              style={{}}
-              width="74"
-              height="16"
-              viewBox="0 0 74 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.454102 0.945557V6.34579H6.04146C8.00156 6.34579 9.59054 7.93477 9.59054 9.89487V12.7279C9.59054 14.0835 10.7936 15.1825 12.2777 15.1825H62.7969C64.281 15.1825 65.4841 14.0835 65.4841 12.7279V9.89487C65.4841 7.93477 67.073 6.34579 69.0331 6.34579H73.5456V0.945557H0.454102Z"
-                fill="black"
-              />
-            </svg>
-
-            <div className="w-[4.95px] h-[4.52px] static">
-              <div
-                className="rounded-[50%] w-[4.95px] h-[4.52px] absolute left-[1075.26px] top-[282.89px]"
-                style={{
-                  background:
-                    "linear-gradient(120.65deg, rgba(34, 34, 34, 1.00) 0%,rgba(11, 11, 11, 1.00) 100%)",
-                  transformOrigin: "0 0",
-                  transform: "rotate(-180deg) scale(1, 1)",
-                }}
-              ></div>
-              <div
-                className="rounded-[50%] w-[2.69px] h-[2.45px] absolute left-[1071.39px] top-[279.35px]"
-                style={{
-                  background:
-                    "radial-gradient(closest-side, rgba(21, 36, 87, 1.00) 0%,rgba(0, 0, 0, 1.00) 100%)",
-                  transformOrigin: "0 0",
-                  transform: "rotate(0deg) scale(1, 1)",
-                }}
-              ></div>
-              <div
-                className="rounded-[50%] w-[1.96px] h-[1.61px] absolute left-[1071.93px] top-[281.8px]"
-                style={{
-                  background:
-                    "linear-gradient(254.48deg, rgba(32, 86, 155, 1.00) 0%,rgba(6, 17, 39, 1.00) 67.70833134651184%)",
-                  transformOrigin: "0 0",
-                  transform: "rotate(-90deg) scale(1, 1)",
-                  filter: "blur(0.82px)",
-                }}
-              ></div>
-              <div
-                className="bg-[#50326d] rounded-[50%] w-[0.54px] h-[0.49px] absolute left-[1072.46px] top-[279.84px]"
-                style={{
-                  transformOrigin: "0 0",
-                  transform: "rotate(0deg) scale(1, 1)",
-                  filter: "blur(2.88px)",
-                }}
-              ></div>
-              <div
-                className="rounded-[50%] w-[1.96px] h-[2.15px] absolute left-[1074.07px] top-[279.84px]"
-                style={{
-                  background:
-                    "linear-gradient(254.48deg, rgba(61, 100, 149, 1.00) 0%,rgba(6, 17, 39, 1.00) 71.875%)",
-                  transformOrigin: "0 0",
-                  transform: "rotate(90deg) scale(1, 1)",
-                  filter: "blur(0.82px)",
-                }}
-              ></div>
-              <div
-                className="rounded-[50%] w-[1.07px] h-[0.49px] absolute left-[1072.46px] top-[280.82px]"
-                style={{
-                  background:
-                    "linear-gradient(-38.66deg, rgba(50, 145, 175, 1.00) 0%,rgba(50, 145, 175, 0.00) 100%)",
-                  transformOrigin: "0 0",
-                  transform: "rotate(0deg) scale(1, 1)",
-                  filter: "blur(0.96px)",
-                }}
-              ></div>
-            </div>
-          </div>
-          <div
-            className="w-[539.59px] h-[11.78px] absolute left-[803.21px] top-[596.49px]"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(45, 45, 45, 1.00) 0%,rgba(0, 0, 0, 1.00) 100%)",
-            }}
-          ></div>
-        </div>
-        <div className="w-[646px] h-[23.07px] static">
-          <div className="w-[646px] h-[23.07px] static">
-            <svg
-              className="rounded-none absolute left-[750px] top-[608.27px] overflow-visible"
-              style={{}}
-              width="646"
-              height="20"
-              viewBox="0 0 646 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g filter="url(#filter0_iii_328_87)">
-                <path
-                  d="M0 0.269043H646C646 11.1144 637.208 19.9062 626.363 19.9062H19.6372C8.79186 19.9062 0 11.1144 0 0.269043Z"
-                  fill="#D1D2D4"
-                />
-                <path
-                  d="M0 0.269043H646C646 11.1144 637.208 19.9062 626.363 19.9062H19.6372C8.79186 19.9062 0 11.1144 0 0.269043Z"
-                  fill="url(#paint0_linear_328_87)"
-                />
-              </g>
-              <defs>
-                <filter
-                  id="filter0_iii_328_87"
-                  x="0"
-                  y="-13.9273"
-                  width="646"
-                  height="33.8335"
-                  filterUnits="userSpaceOnUse"
-                  colorInterpolationFilters="sRGB"
-                >
-                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                  <feBlend
-                    mode="normal"
-                    in="SourceGraphic"
-                    in2="BackgroundImageFix"
-                    result="shape"
-                  />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="-20.1115" />
-                  <feGaussianBlur stdDeviation="7.09817" />
-                  <feComposite
-                    in2="hardAlpha"
-                    operator="arithmetic"
-                    k2="-1"
-                    k3="1"
-                  />
-                  <feColorMatrix
-                    type="matrix"
-                    values="0 0 0 0 0.502066 0 0 0 0 0.502766 0 0 0 0 0.504167 0 0 0 1 0"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in2="shape"
-                    result="effect1_innerShadow_328_87"
-                  />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="-7.09817" />
-                  <feGaussianBlur stdDeviation="2.95757" />
-                  <feComposite
-                    in2="hardAlpha"
-                    operator="arithmetic"
-                    k2="-1"
-                    k3="1"
-                  />
-                  <feColorMatrix
-                    type="matrix"
-                    values="0 0 0 0 0.900764 0 0 0 0 0.904549 0 0 0 0 0.908333 0 0 0 1 0"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in2="effect1_innerShadow_328_87"
-                    result="effect2_innerShadow_328_87"
-                  />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="-1.18303" />
-                  <feGaussianBlur stdDeviation="1.77454" />
-                  <feComposite
-                    in2="hardAlpha"
-                    operator="arithmetic"
-                    k2="-1"
-                    k3="1"
-                  />
-                  <feColorMatrix
-                    type="matrix"
-                    values="0 0 0 0 0.616667 0 0 0 0 0.616667 0 0 0 0 0.616667 0 0 0 1 0"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in2="effect2_innerShadow_328_87"
-                    result="effect3_innerShadow_328_87"
-                  />
-                </filter>
-                <linearGradient
-                  id="paint0_linear_328_87"
-                  x1="0"
-                  y1="10.0876"
-                  x2="646"
-                  y2="10.0881"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#A9AAAC" />
-                  <stop
-                    offset="0.0205416"
-                    stopColor="#F2F2F2"
-                    stopOpacity="0.921875"
-                  />
-                  <stop offset="0.0339099" stopColor="#787879" />
-                  <stop
-                    offset="0.124814"
-                    stopColor="#D6D6D6"
-                    stopOpacity="0.606575"
-                  />
-                  <stop offset="0.515625" stopColor="#E4E4E4" stopOpacity="0" />
-                  <stop
-                    offset="0.864583"
-                    stopColor="#D7D7D7"
-                    stopOpacity="0.666378"
-                  />
-                  <stop offset="0.973923" stopColor="#848484" />
-                  <stop offset="0.992314" stopColor="#F4F4F4" />
-                  <stop offset="1" stopColor="#BFBFBF" />
-                </linearGradient>
-              </defs>
-            </svg>
-
-            <svg
-              className="absolute left-[1023.02px] top-[608.27px] overflow-visible"
-              style={{}}
-              width="100"
-              height="8"
-              viewBox="0 0 100 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.0185547 0.269043H50.0003V7.14207H6.89158C3.09571 7.14207 0.0185547 4.06491 0.0185547 0.269043Z"
-                fill="url(#paint0_radial_328_88)"
-              />
-              <path
-                d="M0.0185547 0.269043H50.0003V7.14207H6.89158C3.09571 7.14207 0.0185547 4.06491 0.0185547 0.269043Z"
-                fill="url(#paint1_linear_328_88)"
-              />
-              <path
-                d="M99.9817 0.269043H50V7.14207H93.1087C96.9045 7.14207 99.9817 4.06491 99.9817 0.269043Z"
-                fill="url(#paint2_radial_328_88)"
-              />
-              <path
-                d="M99.9817 0.269043H50V7.14207H93.1087C96.9045 7.14207 99.9817 4.06491 99.9817 0.269043Z"
-                fill="url(#paint3_linear_328_88)"
-              />
-              <defs>
-                <radialGradient
-                  id="paint0_radial_328_88"
-                  cx="0"
-                  cy="0"
-                  r="1"
-                  gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(25.0094 0.269043) rotate(90) scale(9.57314 69.6174)"
-                >
-                  <stop stopColor="white" />
-                  <stop offset="1" stopColor="#D9D9D9" />
-                </radialGradient>
-                <linearGradient
-                  id="paint1_linear_328_88"
-                  x1="0.959069"
-                  y1="4.68739"
-                  x2="10.4008"
-                  y2="-0.409865"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0.00209588" stopColor="#242424" />
-                  <stop offset="0.34936" stopColor="#EFEFEF" />
-                </linearGradient>
-                <radialGradient
-                  id="paint2_radial_328_88"
-                  cx="0"
-                  cy="0"
-                  r="1"
-                  gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(74.9908 0.269043) rotate(90) scale(9.57314 69.6174)"
-                >
-                  <stop stopColor="white" />
-                  <stop offset="1" stopColor="#D9D9D9" />
-                </radialGradient>
-                <linearGradient
-                  id="paint3_linear_328_88"
-                  x1="99.0412"
-                  y1="4.68739"
-                  x2="89.5995"
-                  y2="-0.409865"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0.00209588" stopColor="#242424" />
-                  <stop offset="0.34936" stopColor="#EFEFEF" />
-                </linearGradient>
-              </defs>
-            </svg>
-
-            <svg
-              className="absolute left-[1326.13px] top-[627.91px] overflow-visible"
-              style={{}}
-              width="38"
-              height="5"
-              viewBox="0 0 38 5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.74537 2.37904L0.133057 0.90625H37.485L35.8727 2.37904H1.74537Z"
-                fill="url(#paint0_linear_328_91)"
-              />
-              <rect
-                x="1.74536"
-                y="2.37891"
-                width="34.396"
-                height="0.49093"
-                rx="0.245465"
-                fill="#2A2A2A"
-              />
-              <path
-                d="M2.28271 2.86987H35.6038L35.2208 3.38623C34.7745 3.9879 34.0696 4.34266 33.3205 4.34266H4.56605C3.81693 4.34266 3.11205 3.9879 2.66574 3.38623L2.28271 2.86987Z"
-                fill="url(#paint1_linear_328_91)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_328_91"
-                  x1="0.133057"
-                  y1="1.15172"
-                  x2="37.2163"
-                  y2="1.15172"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#D1D2D4" />
-                  <stop offset="0.063237" stopColor="#818181" />
-                  <stop offset="0.507008" stopColor="#D0D0D0" />
-                  <stop offset="0.864583" stopColor="#818181" />
-                  <stop offset="1" stopColor="#D1D2D4" />
-                </linearGradient>
-                <linearGradient
-                  id="paint1_linear_328_91"
-                  x1="2.82896"
-                  y1="3.36079"
-                  x2="35.6038"
-                  y2="3.36079"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#4D4D4D" />
-                  <stop offset="0.156699" stopColor="#292929" />
-                  <stop offset="0.501829" stopColor="#6A6A6A" />
-                  <stop offset="0.884758" stopColor="#2E2D2D" />
-                  <stop offset="1" stopColor="#4D4D4D" />
-                </linearGradient>
-              </defs>
-            </svg>
-
-            <svg
-              className="absolute left-[782.25px] top-[627.91px] overflow-visible"
-              style={{}}
-              width="38"
-              height="5"
-              viewBox="0 0 38 5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.85841 2.37904L0.246094 0.90625H37.598L35.9857 2.37904H1.85841Z"
-                fill="url(#paint0_linear_328_95)"
-              />
-              <rect
-                x="1.8584"
-                y="2.37891"
-                width="33.8586"
-                height="0.49093"
-                rx="0.245465"
-                fill="#2A2A2A"
-              />
-              <path
-                d="M2.39624 2.86987H35.1799L34.8139 3.37144C34.3684 3.98178 33.6583 4.34266 32.9027 4.34266H4.67349C3.91789 4.34266 3.20773 3.98178 2.76229 3.37144L2.39624 2.86987Z"
-                fill="url(#paint1_linear_328_95)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_328_95"
-                  x1="0.246094"
-                  y1="1.15172"
-                  x2="37.3293"
-                  y2="1.15172"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#D1D2D4" />
-                  <stop offset="0.063237" stopColor="#818181" />
-                  <stop offset="0.507008" stopColor="#D0D0D0" />
-                  <stop offset="0.864583" stopColor="#818181" />
-                  <stop offset="1" stopColor="#D1D2D4" />
-                </linearGradient>
-                <linearGradient
-                  id="paint1_linear_328_95"
-                  x1="2.93368"
-                  y1="3.36079"
-                  x2="35.1799"
-                  y2="3.36079"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#4D4D4D" />
-                  <stop offset="0.156699" stopColor="#292929" />
-                  <stop offset="0.501829" stopColor="#6A6A6A" />
-                  <stop offset="0.884758" stopColor="#2E2D2D" />
-                  <stop offset="1" stopColor="#4D4D4D" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-          <img
-            className="rounded-br-[23.66px] rounded-bl-[23.66px] w-[646px] h-[19.64px] absolute left-[750px] top-[608.27px]"
-            src="texture.png"
-          />
-        </div>
-      </div>
-      <div
-        className="text-[#ffffff] text-left absolute left-[174px] top-[826px] w-[547px] h-[99px]"
-        style={{ font: "800 42px/180.5% 'Poppins', sans-serif" }}
-      >
-        About DexCrash{" "}
       </div>
     </div>
   );
