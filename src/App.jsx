@@ -1,11 +1,15 @@
+import { router } from "./Router";
 import "./styles.css";
 import "./tailwind.css";
-import { Home } from "./Home/Home";
+import { RouterProvider } from "react-router-dom";
+
 
 export default function App() {
 return (
-    <div>
-    <Home />
-    </div>
+    <>
+      <RouterProvider
+        router={router}
+      />
+    </>
 );
 }
