@@ -9,7 +9,7 @@ function Staking() {
         backdropFilter: "blur(7px)",
         font: "800 38px/180.5% 'Poppins', sans-serif"
       }}
-    >Staking Under Development ...</div>
+    >Staking Platform Under Development ...</div>
   )
 }
 
