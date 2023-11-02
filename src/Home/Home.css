@@ -1,0 +1,91 @@
+.custom-txt-1 {
+  font: 700 22px/155.2% "Poppins", sans-serif;
+}
+
+.custom-txt-2 {
+  font: 800 24px/155.2% "Poppins", sans-serif;
+}
+
+.custom-div-1{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-txt-3 {
+  font: 800 32px/155.2% "Poppins", sans-serif;
+}
+
+.custom-txt-4 {
+  font: 400 12px/187.5 "Poppins", sans-serif;
+}
+
+.custom-txt-5{
+  font: 600 12px/187.5% 'Poppins', sans-serif;
+
+}
+
+.custom-footer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.custom-txt-6 {
+  font: 500 18px 'Poppins', sans-serif;
+}
+
+.custom-txt-7{
+  font: 600 28px/180.5% 'Poppins', sans-serif;
+}
+
+.c-t-2 {
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .custom-txt-1 {
+    font: 700 50px/155.2% "Poppins", sans-serif !important;
+  }
+
+  .c-t-2 {
+    margin-top: 0px !important;
+  }
+
+  .custom-txt-7{
+    font: 600 42px/180.5% 'Poppins', sans-serif !important;
+  }
+
+  .custom-txt-6 {
+    font: 500 30px 'Poppins', sans-serif !important;
+  }
+
+  .custom-txt-5{
+    font: 800 20px/187.5% 'Poppins', sans-serif !important;
+  }
+
+  .custom-footer {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .custom-div-1{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .custom-txt-2 {
+    font: 800 38px/180.5% "Poppins", sans-serif !important;
+  }
+
+  .custom-txt-3 {
+    font: 800 66px/180.5% "Poppins", sans-serif;
+  }
+
+  .custom-txt-4 {
+    font: 400 18px/187.5 "Poppins", sans-serif;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-txt-1 {
+    font: 800 38px/180.5% "Poppins", sans-serif;
+  }
+}

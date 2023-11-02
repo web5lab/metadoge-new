@@ -8,6 +8,9 @@ import {
   AiOutlineLeftSquare,
 } from "react-icons/ai";
 
+import { CustomWalletBtn } from "./CustomWalletBtn";
+import { signMetaMask } from "../utils/utils";
+
 const dummyArr = [
   {
     index: 1,
@@ -48,6 +51,24 @@ const dummyArr = [
 
 function Airdrop() {
   const [dataleaderboard, setdataleaderboard] = useState(dummyArr);
+  const [telegramVerifyMenu, settelegramVerifyMenu] = useState(false);
+  const [verifyTwitter, setverifyTwitter] = useState(false);
+  const [verifyRetweet, setverifyRetweet] = useState(false);
+  const [inviteFriend, setinviteFriend] = useState(false);
+
+  const openMenu = async () => {
+    switch (option) {
+      case value:
+        break;
+
+      default:
+        break;
+    }
+  };
+
+  const metaMaskAuth = async () => {
+    await signMetaMask();
+  };
   return (
     <div
       style={{
@@ -56,7 +77,7 @@ function Airdrop() {
       }}
     >
       <div className="h-auto w-full min-h-screen flex justify-center  items-start  text-white ">
-        <div class=" mt-[140px] border-4 border-[#fa9021] rounded-2xl  w-[80%] py-12 ">
+        <div class=" mt-[140px] border-4 border-[#fa9021] rounded-2xl  sm:w-[90%] py-12 md:w-[80%] lg:w-[80%] ">
           <div
             className="w-[80%] h-12  text-[#e87d0e] mx-auto flex justify-center items-center"
             style={{
@@ -65,10 +86,10 @@ function Airdrop() {
           >
             <div>DEX TOKEN EARLY COMMUNITY AIRDROP</div>
           </div>
-          <div class="flex  px-4 py-8 ">
-            <div class="mr-auto flex flex-col justify-center pl-36 w-full  ">
+          <div class="flex flex-col md:flex-row  px-4 py-8 ">
+            <div class="mr-auto flex  flex-col justify-center md:pl-36 w-full  ">
               <div
-                className="text-[#ffffff] mb-8 w-[479.63px]"
+                className="text-[#ffffff] mb-8 md:w-[479.63px]"
                 style={{ font: "700 18px/155.2% 'Poppins', sans-serif" }}
               >
                 We deeply value our community and continuously seek
@@ -92,38 +113,120 @@ function Airdrop() {
               style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
               className="text-white w-full  gap-1 flex flex-col justify-center items-center"
             >
-              <div className="flex justify-start px-4 gap-2 items-center w-96 border-2 rounded-md">
-                {" "}
-                <BiLogoTelegram
-                  style={{ color: "white" }}
-                ></BiLogoTelegram>{" "}
-                Join Telegram <div style={{ flex: 1 }}></div> <span>10XP</span>
-                <AiOutlineArrowRight></AiOutlineArrowRight>
+              <div className=" md:w-96 border-2 anime rounded-md cursor-pointer">
+                <div
+                  onClick={() => {
+                    settelegramVerifyMenu(!telegramVerifyMenu);
+                  }}
+                  className="flex justify-start px-4 gap-2 items-center"
+                >
+                  {" "}
+                  <BiLogoTelegram
+                    style={{ color: "white" }}
+                  ></BiLogoTelegram>{" "}
+                  Join Telegram <div style={{ flex: 1 }}></div>{" "}
+                  <span>10XP</span>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
+                </div>
+                {telegramVerifyMenu && (
+                  <div className="flex justify-start anime px-4 gap-2 items-center my-4 w-96  ">
+                    <div style={{ flex: 1 }}></div>
+                    <button
+                      className="flex justify-center items-center w-[131.77px] h-[41.34px]  border-2 rounded-md text-white"
+                      style={{ font: "400 18px 'Poppins', sans-serif" }}
+                      onClick={() => {
+                        metaMaskAuth();
+                      }}
+                    >
+                      Verify
+                    </button>
+                  </div>
+                )}
               </div>
-              <div className="flex justify-start px-4 gap-2 items-center w-96 border-2 rounded-md">
-                {" "}
-                <FaXTwitter style={{ color: "white" }}></FaXTwitter>Follow
-                DexCrash on X <div style={{ flex: 1 }}></div> <span>20XP</span>
-                <AiOutlineArrowRight></AiOutlineArrowRight>
-              </div>
-              <div className="flex justify-start px-4 gap-2 items-center w-96 border-2 rounded-md">
-                {" "}
-                <FaXTwitter style={{ color: "white" }}></FaXTwitter>Retweet
-                Tweet on X <div style={{ flex: 1 }}></div> <span>20XP</span>
-                <AiOutlineArrowRight></AiOutlineArrowRight>
-              </div>
-              <div className="flex justify-start px-4 gap-2 items-center w-96 border-2 rounded-md">
-                {" "}
-                <FaUserFriends style={{ color: "white" }}></FaUserFriends>Invite Your
-                Friend <div style={{ flex: 1 }}></div> <span>50XP</span>
-                <AiOutlineArrowRight></AiOutlineArrowRight>
-              </div>
-              <button
-                className="flex justify-center items-center px-12 mt-8 h-[41.34px]  bg-[#fa9021] rounded-md text-white"
-                style={{ font: "400 13px 'Poppins', sans-serif" }}
+              <div
+                className=" md:w-96 border-2 rounded-md cursor-pointer"
+                onClick={() => {
+                  setverifyTwitter(!verifyTwitter);
+                }}
               >
-                Connect Wallet to Continue
-              </button>
+                <div className="flex justify-start px-4 gap-2 items-center">
+                  {" "}
+                  <FaXTwitter style={{ color: "white" }}></FaXTwitter>Follow
+                  DexCrash on X <div style={{ flex: 1 }}></div>{" "}
+                  <span>20XP</span>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
+                </div>
+                {verifyTwitter && (
+                  <div className="flex justify-start px-4 gap-2 items-center my-4 w-96  ">
+                    <div style={{ flex: 1 }}></div>
+                    <button
+                      className="flex justify-center items-center w-[131.77px] h-[41.34px]  border-2 rounded-md text-white"
+                      style={{ font: "400 18px 'Poppins', sans-serif" }}
+                      onClick={() => {
+                        navigation("/staking");
+                      }}
+                    >
+                      Verify
+                    </button>
+                  </div>
+                )}
+              </div>
+              <div className=" md:w-96 border-2 rounded-md">
+                <div
+                  className="flex justify-start px-4 gap-2 items-center cursor-pointer"
+                  onClick={() => {
+                    setverifyRetweet(!verifyRetweet);
+                  }}
+                >
+                  {" "}
+                  <FaXTwitter style={{ color: "white" }}></FaXTwitter>Retweet
+                  Tweet on X <div style={{ flex: 1 }}></div> <span>20XP</span>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
+                </div>
+                {verifyRetweet && (
+                  <div className="flex justify-start px-4 gap-2 items-center my-4 w-96  ">
+                    <div style={{ flex: 1 }}></div>
+                    <button
+                      className="flex justify-center items-center w-[131.77px] h-[41.34px]  border-2 rounded-md text-white"
+                      style={{ font: "400 18px 'Poppins', sans-serif" }}
+                      onClick={() => {
+                        navigation("/staking");
+                      }}
+                    >
+                      Verify
+                    </button>
+                  </div>
+                )}
+              </div>
+              <div className=" md:w-96 border-2 rounded-md">
+                <div
+                  className="flex justify-start px-4 gap-2 items-center cursor-pointer"
+                  onClick={() => {
+                    setinviteFriend(!inviteFriend);
+                  }}
+                >
+                  {" "}
+                  <FaUserFriends style={{ color: "white" }}></FaUserFriends>
+                  Invite Your Friend <div style={{ flex: 1 }}></div>{" "}
+                  <span>50XP</span>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
+                </div>
+                {inviteFriend && (
+                  <div className="flex justify-start px-4 gap-2 items-center my-4 w-96  ">
+                    <div style={{ flex: 1 }}></div>
+                    <button
+                      className="flex justify-center items-center w-[131.77px] h-[41.34px]  border-2 rounded-md text-white"
+                      style={{ font: "400 18px 'Poppins', sans-serif" }}
+                      onClick={() => {
+                        navigation("/staking");
+                      }}
+                    >
+                      Invite Friend
+                    </button>
+                  </div>
+                )}
+              </div>
+              <CustomWalletBtn />
             </div>
           </div>
         </div>
@@ -138,7 +241,7 @@ function Airdrop() {
         <div style={{ font: "800 42px/180.5% 'Poppins', sans-serif" }}>
           Leader Board
         </div>
-        <div class="my-8 border py-6 px-6  rounded-2xl  w-[80%]  ">
+        <div class="my-8 border py-6 px-6 mx-2 rounded-2xl  md:w-[80%]  ">
           <div
             className=""
             style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
@@ -149,7 +252,7 @@ function Airdrop() {
             </div>
             {dataleaderboard.map((items) => (
               <div
-                className="flex px-12 border  my-4 mx-4 rounded-xl  justify-between"
+                className="flex md:px-12 border  my-4 md:mx-4 rounded-xl  justify-between"
                 style={{ font: "800 20px/187.5% 'Poppins', sans-serif" }}
               >
                 <div className="flex">
