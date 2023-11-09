@@ -1,16 +1,26 @@
-import React from 'react'
+import React from "react";
 
 function Staking() {
   return (
     <div
-      className="h-[100vh] w-full  flex justify-center items-center  text-white "
       style={{
         background: " rgba(57, 40, 159, 1.00)",
         backdropFilter: "blur(7px)",
-        font: "800 38px/180.5% 'Poppins', sans-serif"
       }}
-    >Staking Platform Under Development ...</div>
-  )
+    >
+      <div className="h-auto w-full min-h-screen flex justify-center  items-start  text-white ">
+        <div class=" mt-[140px] border-4 border-[#fa9021] rounded-2xl  sm:w-[90%] py-12 md:w-[80%] lg:w-[80%] ">
+          {" "}
+          <div
+            className="w-[80%] h-12 text-2xl font-bold text-white mx-auto flex justify-center items-center"
+          
+          >
+            <div>Staking platform under development</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Staking
+export default Staking;

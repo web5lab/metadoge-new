@@ -771,10 +771,6 @@ video {
   height: 100px;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-\[123px\] {
   height: 123px;
 }
@@ -1213,6 +1209,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1242,6 +1243,10 @@ video {
 
 .font-\[800\] {
   font-weight: 800;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {

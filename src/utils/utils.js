@@ -1,10 +1,9 @@
-import { signMessage } from '@wagmi/core';
-
+import { signMessage } from "@wagmi/core";
 
 export const signMetaMask = async () => {
- const res =    await signMessage({
-        message: 'SignIn airdrop dexCrash',
-      })
+  const res = await signMessage({
+    message: "SignIn airdrop dexCrash",
+  });
 
-      console.log("msg",res)
+  console.log("msg", res);
 };
